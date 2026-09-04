@@ -101,7 +101,7 @@ function Home({ content, lang }) {
                 <div className="absolute inset-0 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-100 dark:from-slate-800 dark:via-slate-700 dark:to-slate-800 animate-pulse"></div>
 
                 <Image
-                  src="/profile/profile.jpg"
+                  src="/profile/new-profile.jpg"
                   className="w-full h-full object-cover transform transition-transform duration-1000 group-hover:scale-105 relative z-10"
                   alt="Abdellah Edaoudi - Full Stack Developer"
                   width={500}

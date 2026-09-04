@@ -54,7 +54,7 @@ export async function generateMetadata({ params }) {
             type: 'website',
             images: [
                 {
-                    url: 'https://abdellah-edaoudi.vercel.app/profile/profile.jpg',
+                    url: 'https://abdellah-edaoudi.vercel.app/profile/new-profile.jpg',
                     width: 1200,
                     height: 630,
                     alt: meta?.title,
@@ -66,7 +66,7 @@ export async function generateMetadata({ params }) {
             title: meta?.twitter?.title,
             description: meta?.twitter?.description,
             creator: '@Edaoudi_abde',
-            images: ['https://abdellah-edaoudi.vercel.app/profile/profile.jpg'],
+            images: ['https://abdellah-edaoudi.vercel.app/profile/new-profile.jpg'],
         },
         alternates: {
             canonical: `/${lang}`,

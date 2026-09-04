@@ -19,7 +19,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://abdellah-edaoudi.vercel.app/profile/profile.jpg',
+        url: 'https://abdellah-edaoudi.vercel.app/profile/new-profile.jpg',
         width: 1200,
         height: 630,
         alt: meta.title,
@@ -31,7 +31,7 @@ export const metadata = {
     title: meta.title,
     description: meta.description,
     creator: '@Edaoudi_abde',
-    images: ['https://abdellah-edaoudi.vercel.app/profile/profile.jpg'],
+    images: ['https://abdellah-edaoudi.vercel.app/profile/new-profile.jpg'],
   },
   alternates: {
     canonical: '/en/Experience',

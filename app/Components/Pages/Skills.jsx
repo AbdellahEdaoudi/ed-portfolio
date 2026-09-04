@@ -71,7 +71,7 @@ function Skills({ content }) {
               <span className={`flex items-center justify-center w-8 h-8 ${item.color || ''}`}>
                 {item.isImage ? (
                   <div className="relative w-8 h-8 rounded-full overflow-hidden flex items-center justify-center">
-                    <Image fill src={item.src} alt={item.name} className="object-contain" />
+                    <Image fill sizes="32px" src={item.src} alt={item.name} className="object-contain" />
                   </div>
                 ) : (
                   <span className="text-3xl">{item.icon}</span>
@@ -117,7 +117,7 @@ function Skills({ content }) {
               <div key={i} className="flex flex-col items-center gap-2 group cursor-default">
                 <div className="p-1 rounded-full border-2 border-transparent group-hover:border-blue-500 group-hover:bg-blue-50 dark:group-hover:bg-blue-900/20 group-hover:shadow-lg group-hover:shadow-blue-200 dark:group-hover:shadow-blue-900/30 transition-all duration-300">
                   <div className="w-14 h-14 relative rounded-full overflow-hidden border border-gray-200 dark:border-slate-700">
-                    <Image fill src={tl.image} alt={tl.name} className="object-cover" />
+                    <Image fill sizes="56px" src={tl.image} alt={tl.name} className="object-cover" />
                   </div>
                 </div>
                 <span className='text-gray-900 dark:text-gray-100 text-sm font-bold whitespace-nowrap mt-1 group-hover:text-blue-500 transition-colors duration-300'>

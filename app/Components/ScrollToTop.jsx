@@ -6,11 +6,16 @@ import { getTranslation } from "../translations/portfolio/load-translations";
 
 export default function ScrollToTop() {
     const { lang } = useParams();
+    const [mounted, setMounted] = useState(false);
     const [isVisible, setIsVisible] = useState(false);
     const [scrollProgress, setScrollProgress] = useState(0);
     const [t, setT] = useState("Back to Top");
 
     const isAr = lang === 'ar' || lang === 'fa';
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
 
     useEffect(() => {
         const fetchTranslation = async () => {
@@ -51,6 +56,8 @@ export default function ScrollToTop() {
     const radius = 24;
     const circumference = 2 * Math.PI * radius;
     const offset = circumference - (scrollProgress / 100) * circumference;
+
+    if (!mounted) return null;
 
     return (
         <div className={`fixed bottom-8 ${isAr ? 'left-8' : 'right-8'} z-[60] transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12 pointer-events-none'}`}>

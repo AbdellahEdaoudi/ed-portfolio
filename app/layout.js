@@ -42,7 +42,7 @@ export const metadata = {
     type: 'profile',
     images: [
       {
-        url: '/profile/profile.jpg',
+        url: '/profile/new-profile.jpg',
         alt: 'Abdellah Edaoudi Portfolio',
       }
     ],
@@ -52,7 +52,7 @@ export const metadata = {
     title: 'Abdellah Edaoudi | Full Stack Developer',
     description: 'Official portfolio of Abdellah Edaoudi, a Full Stack Developer specialized in MERN stack, Next.js, Nest.js, and building secure and scalable web applications.',
     creator: '@Edaoudi_abde',
-    images: ['/profile/profile.jpg'],
+    images: ['/profile/new-profile.jpg'],
   },
   robots: {
     index: true,
@@ -66,9 +66,9 @@ export const metadata = {
     },
   },
   icons: {
-    icon: '/profile/profile.jpg',
-    shortcut: '/profile/profile.jpg',
-    apple: '/profile/profile.jpg',
+    icon: '/profile/new-profile.jpg',
+    shortcut: '/profile/new-profile.jpg',
+    apple: '/profile/new-profile.jpg',
   },
   alternates: {
     canonical: 'https://abdellah-edaoudi.vercel.app',
@@ -115,7 +115,7 @@ export default function RootLayout({ children }) {
                   "Abdellah Edaoudi Full Stack"
                 ],
                 "url": "https://abdellah-edaoudi.vercel.app",
-                "image": "https://abdellah-edaoudi.vercel.app/profile/profile.jpg",
+                "image": "https://abdellah-edaoudi.vercel.app/profile/new-profile.jpg",
                 "sameAs": [
                   "https://linkedin.com/in/abdellah-edaoudi/",
                   "https://github.com/AbdellahEdaoudi",
