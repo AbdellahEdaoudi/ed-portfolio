@@ -20,7 +20,7 @@
         },
         "services": "Услуги"
     },
-    "home": {
+    "hero": {
         "greeting": "Привет, я Абделла Эдауди",
         "role": "🔷 Full Stack Разработчик 🔷",
         "description": "Я специализируюсь на разработке безопасных и высокопроизводительных full-stack веб-приложений с использованием React.js, Node.js, Next.js, NestJS и TypeScript. Я фокусируюсь на создании масштабируемых решений с чистым, поддерживаемым кодом и отличным пользовательским опытом.",
@@ -63,10 +63,22 @@
         "toolsTitle": "Инструменты разработки",
         "softSkillsTitle": "Гибкие навыки",
         "softSkills": [
-            {"name":"Решение проблем","image":"/Skills/Problem Solving.png"},
-            {"name":"Командная работа","image":"/Skills/Teamwork.jpg"},
-            {"name":"Коммуникация","image":"/Skills/Communication.png"},
-            {"name":"Адаптивность","image":"/Skills/Adaptability.png"}
+            {
+                "name": "Решение проблем",
+                "image": "/Skills/Problem Solving.png"
+            },
+            {
+                "name": "Командная работа",
+                "image": "/Skills/Teamwork.jpg"
+            },
+            {
+                "name": "Коммуникация",
+                "image": "/Skills/Communication.png"
+            },
+            {
+                "name": "Адаптивность",
+                "image": "/Skills/Adaptability.png"
+            }
         ]
     },
     "projects": {
@@ -86,16 +98,46 @@
                 "githubNestjsBackendUrl": "https://github.com/AbdellahEdaoudi/nestjs-dgtportfolio-server",
                 "description": "Полная SaaS-платформа, позволяющая пользователям без труда создавать профессиональные портфолио. Предлагает многоязычную поддержку, интеграцию пользовательского домена, динамический выбор тем, создание резюме в реальном времени и интуитивно понятную панель администратора для управления контентом, подписками и аналитикой.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Nestjs","logo":"/Skills/Nestjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"PayPal","logo":"/Skills/paypal.png"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Nestjs",
+                        "logo": "/Skills/Nestjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "PayPal",
+                        "logo": "/Skills/paypal.png"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    }
                 ]
             },
             {
@@ -106,15 +148,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-hotel-app.git",
                 "description": "Система управления отелем предоставляет комплексное решение для управления бронированием номеров и платежами. Позволяет пользователям легко бронировать номера и получать электронный подтверждающий билет. Система включает панель управления для управления бронированием, платежами и ответами клиентам по электронной почте.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"stripe","logo":"/Skills/stripe.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "stripe",
+                        "logo": "/Skills/stripe.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -126,15 +195,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-Chat-Application",
                 "description": "Безопасная система чата в реальном времени — высокопроизводительное приложение для обмена мгновенными сообщениями с расширенной безопасностью. Использует Socket.io для связи в реальном времени и реализует сквозное шифрование (E2EE) для обеспечения конфиденциальности сообщений. Также включает надёжную систему аутентификации с JWT и хэшированием паролей с помощью Bcrypt, обеспечивая защиту данных пользователей по самым высоким стандартам.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"Socket.IO","logo":"/Skills/Socket.io.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "logo": "/Skills/Socket.io.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -147,14 +243,38 @@
                 "githubBackendUrl": "",
                 "description": "Надёжная и масштабируемая серверная система для платформы электронной коммерции. Система обрабатывает различные функции, такие как управление пользователями, организация инвентаря продуктов, обработка заказов, обработка платежей (наличными или картой), добавление купонов, отзывы, управление категориями и брендами, управление поставщиками и налоговое регулирование.",
                 "technologies": [
-                    {"name":"Nestjs","logo":"/Skills/Nestjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Typescript ","logo":"/Skills/typescript.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"stripe","logo":"/Skills/stripe.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Nestjs",
+                        "logo": "/Skills/Nestjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Typescript ",
+                        "logo": "/Skills/typescript.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "stripe",
+                        "logo": "/Skills/stripe.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -166,14 +286,38 @@
                 "githubBackendUrl": "",
                 "description": "Интегрированная образовательная и педагогическая платформа для Института дошкольного образования Мекка в Лаюне. Разработана для предоставления высококачественного раннего детского образования с образовательными программами (ясли, подготовительная группа, детский сад), интерактивными ценностями и системой запросов.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -185,10 +329,22 @@
                 "githubBackendUrl": "",
                 "description": "Интерактивная исламская платформа для мечети Хасан Аль-Дерхем в Лаюне, Марокко. Включает точное расписание ежедневных молитв, живой обратный отсчёт до следующей молитвы с марокканским азаном, компас направления Киблы и интеграцию с Google Maps.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -200,15 +356,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "Современное, высокоинтерактивное и адаптивное личное портфолио, созданное с помощью Next.js и Tailwind CSS. Включает поддержку нескольких языков (i18n) и плавные анимации для демонстрации моих навыков, проектов и профессионального опыта увлекательным способом.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -219,13 +402,34 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Resume-Platform-Project-Server",
                 "description": "Инновационное приложение, которое я разработал, позволяющее пользователям представлять своё профессиональное резюме и ссылки на социальные сети в одном месте. Это приложение помогает пользователям эффективно управлять своей цифровой идентичностью, делая его идеальным инструментом для соискателей работы или всех, кто хочет улучшить своё присутствие в интернете и цифровое влияние.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Socket.IO","logo":"/Skills/Socket.io.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "logo": "/Skills/Socket.io.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -236,10 +440,22 @@
                 "githubBackendUrl": "",
                 "description": "Мощный и безопасный инструмент сжатия изображений на основе браузера. Позволяет пользователям сжимать неограниченное количество изображений JPG, PNG и WebP на 90% без потери качества. Функции включают массовое сжатие, генерацию PDF, интерфейс перетаскивания и полную конфиденциальность, поскольку вся обработка выполняется локально в браузере.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -250,10 +466,22 @@
                 "githubBackendUrl": "",
                 "description": "Приложение для управления QR-кодами, которое позволяет создавать QR-коды с пользовательскими логотипами, считывать QR-коды из изображений и сканировать QR-коды через камеру для мгновенного отображения данных. Отличается привлекательным и адаптивным дизайном.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ],
                 "Rapport": " "
             },
@@ -265,9 +493,18 @@
                 "githubBackendUrl": "",
                 "description": "Приложение, обеспечивающее бесшовный опыт покупок, облегчая пользователям просмотр товаров и добавление позиций в корзину. Приложение имеет современный и инновационный дизайн, улучшающий пользовательский опыт, с мгновенной отзывчивостью и интерактивными элементами, делающими покупки более приятными.",
                 "technologies": [
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             }
         ],
@@ -426,13 +663,34 @@
         "backToTop": "Наверх",
         "siteMapLabel": "Карта сайта",
         "links": [
-            {"name":"Обо мне","path":"/About"},
-            {"name":"Услуги","path":"/Services"},
-            {"name":"Навыки","path":"/Skills"},
-            {"name":"Проекты","path":"/Projects"},
-            {"name":"Опыт","path":"/Experience"},
-            {"name":"Образование","path":"/Education"},
-            {"name":"Контакты","path":"/Contact"}
+            {
+                "name": "Обо мне",
+                "path": "/About"
+            },
+            {
+                "name": "Услуги",
+                "path": "/Services"
+            },
+            {
+                "name": "Навыки",
+                "path": "/Skills"
+            },
+            {
+                "name": "Проекты",
+                "path": "/Projects"
+            },
+            {
+                "name": "Опыт",
+                "path": "/Experience"
+            },
+            {
+                "name": "Образование",
+                "path": "/Education"
+            },
+            {
+                "name": "Контакты",
+                "path": "/Contact"
+            }
         ],
         "connectLabel": "Связаться",
         "emailLabel": "Электронная почта",

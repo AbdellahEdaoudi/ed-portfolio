@@ -20,7 +20,7 @@
         },
         "services": "सेवाएं"
     },
-    "home": {
+    "hero": {
         "greeting": "नमस्ते, मैं अब्दुल्लाह एदाउदी हूँ",
         "role": "🔷 फुल स्टैक डेवलपर 🔷",
         "description": "मैं React.js, Node.js, Next.js, NestJS और TypeScript का उपयोग करके सुरक्षित और उच्च-प्रदर्शन वाले फुल-स्टैक वेब एप्लिकेशन बनाने में माहिर हूं। मैं साफ, रख-रखाव योग्य कोड और बेहतरीन उपयोगकर्ता अनुभव के साथ स्केलेबल समाधान प्रदान करने पर ध्यान केंद्रित करता हूं।",
@@ -63,10 +63,22 @@
         "toolsTitle": "विकास उपकरण",
         "softSkillsTitle": "सॉफ्ट स्किल्स",
         "softSkills": [
-            {"name":"समस्या समाधान","image":"/Skills/Problem Solving.png"},
-            {"name":"टीम वर्क","image":"/Skills/Teamwork.jpg"},
-            {"name":"संचार","image":"/Skills/Communication.png"},
-            {"name":"अनुकूलनशीलता","image":"/Skills/Adaptability.png"}
+            {
+                "name": "समस्या समाधान",
+                "image": "/Skills/Problem Solving.png"
+            },
+            {
+                "name": "टीम वर्क",
+                "image": "/Skills/Teamwork.jpg"
+            },
+            {
+                "name": "संचार",
+                "image": "/Skills/Communication.png"
+            },
+            {
+                "name": "अनुकूलनशीलता",
+                "image": "/Skills/Adaptability.png"
+            }
         ]
     },
     "projects": {
@@ -86,16 +98,46 @@
                 "githubNestjsBackendUrl": "https://github.com/AbdellahEdaoudi/nestjs-dgtportfolio-server",
                 "description": "एक पूर्ण SaaS प्लेटफ़ॉर्म जो उपयोगकर्ताओं को आसानी से पेशेवर पोर्टफोलियो बनाने की अनुमति देता है। यह बहुभाषी समर्थन, कस्टम डोमेन एकीकरण, गतिशील थीम चयन, रीयल-टाइम रेज़्यूमे जनरेशन और सामग्री, सदस्यता और विश्लेषण प्रबंधित करने के लिए एक सहज व्यवस्थापक डैशबोर्ड प्रदान करता है।",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Nestjs","logo":"/Skills/Nestjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"PayPal","logo":"/Skills/paypal.png"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Nestjs",
+                        "logo": "/Skills/Nestjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "PayPal",
+                        "logo": "/Skills/paypal.png"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    }
                 ]
             },
             {
@@ -106,15 +148,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-hotel-app.git",
                 "description": "होटल प्रबंधन प्रणाली कमरे की बुकिंग और भुगतान का प्रबंधन करने के लिए एक व्यापक समाधान प्रदान करती है। यह उपयोगकर्ताओं को आसानी से कमरे बुक करने और एक इलेक्ट्रॉनिक पुष्टिकरण टिकट प्राप्त करने की अनुमति देता है। सिस्टम में बुकिंग, भुगतान और ईमेल के माध्यम से ग्राहक प्रतिक्रियाओं के प्रबंधन के लिए एक डैशबोर्ड शामिल है।",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"stripe","logo":"/Skills/stripe.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "stripe",
+                        "logo": "/Skills/stripe.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -126,15 +195,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-Chat-Application",
                 "description": "सुरक्षित रीयल-टाइम चैट सिस्टम उन्नत सुरक्षा के साथ एक उच्च-प्रदर्शन इंस्टेंट मैसेजिंग एप्लिकेशन है। यह रीयल-टाइम संचार के लिए Socket.io का उपयोग करता है और संदेशों की गोपनीयता सुनिश्चित करने के लिए एंड-टू-एंड एन्क्रिप्शन (E2EE) लागू करता है। इसमें JWT के माध्यम से एक मजबूत प्रमाणीकरण प्रणाली और Bcrypt के साथ पासवर्ड हैशिंग भी शामिल है, जो उच्चतम मानकों के साथ उपयोगकर्ता डेटा सुरक्षा सुनिश्चित करती है।",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"Socket.IO","logo":"/Skills/Socket.io.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "logo": "/Skills/Socket.io.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -147,14 +243,38 @@
                 "githubBackendUrl": "",
                 "description": "ई-कॉमर्स प्लेटफॉर्म के लिए एक मजबूत और स्केलेबल बैकएंड सिस्टम। सिस्टम उपयोगकर्ता प्रबंधन, उत्पाद इन्वेंट्री संगठन, ऑर्डर प्रोसेसिंग, भुगतान प्रबंधन (नकद या कार्ड से), कूपन जोड़ना, समीक्षाएं, श्रेणी और ब्रांड प्रबंधन, आपूर्तिकर्ता प्रबंधन और कर विनियमन जैसे विभिन्न कार्यों को संभालता है।",
                 "technologies": [
-                    {"name":"Nestjs","logo":"/Skills/Nestjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Typescript ","logo":"/Skills/typescript.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"stripe","logo":"/Skills/stripe.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Nestjs",
+                        "logo": "/Skills/Nestjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Typescript ",
+                        "logo": "/Skills/typescript.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "stripe",
+                        "logo": "/Skills/stripe.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -166,14 +286,38 @@
                 "githubBackendUrl": "",
                 "description": "लायून में मक्का प्रारंभिक शिक्षा संस्थान के लिए एक एकीकृत शैक्षिक और शैक्षिक मंच। उच्च गुणवत्तावाली बाल्यावस्था शिक्षा प्रदान करने के लिए डिज़ाइन की गई है, जिसमें शैक्षिक कार्यक्रम (नर्सरी, पूर्व-बालवाड़ी, किंडरगार्टन), इंटरैक्टिव मूल्य और जांच प्रणाली शामिल हैं।",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -185,10 +329,22 @@
                 "githubBackendUrl": "",
                 "description": "लायून, मोरक्को में हसन अल-दरहम मस्जिद के लिए एक इंटरैक्टिव इस्लामी मंच। सटीक दैनिक नमाज का समय, मोरक्कन अजान के साथ अगली नमाज का लाइव काउंटडाउन, किब्ला दिशा कंपास और Google मप्स एकीकरण शामिल हैं।",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -200,15 +356,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "Next.js और Tailwind CSS के साथ निर्मित एक आधुनिक, अत्यधिक संवादात्मक और उत्तरदायी व्यक्तिगत पोर्टफोलियो।",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -219,13 +402,34 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Resume-Platform-Project-Server",
                 "description": "एक नवाचारी एप्लिकेशन जिसे मैंने विकसित किया, जो उपयोगकर्ताओं को एक ही स्थान पर अपने पेशेवर बायोडाटा और सोशल मीडिया लिंक प्रदर्शित करने की अनुमति देता है। यह एप्लिकेशन उपयोगकर्ताओं को उनकी डिजिटल पहचान प्रभावी ढंग से प्रबंधित करने में मदद करता है, जिससे यह नौकरी खोजने वालों या अपनी ऑनलाइन उपस्थिति और डिजिटल प्रभाव बढ़ाने की चाहत रखने वाले किसी भी व्यक्ति के लिए आदर्श उपकरण बन जाता है।",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Socket.IO","logo":"/Skills/Socket.io.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "logo": "/Skills/Socket.io.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -236,10 +440,22 @@
                 "githubBackendUrl": "",
                 "description": "एक शक्तिशाली और सुरक्षित ब्राउज़र-आधारित इमेज कंप्रेशन टूल। यह उपयोगकर्ताओं को JPG, PNG और WebP इमेज को बिना गुणवत्ता खोए 90% तक कंप्रेस करने की अनुमति देता है। विशेषताओं में बल्क कंप्रेशन, PDF जनरेशन, ड्रैग-एंड-ड्रॉप इंटरफेस और पूर्ण गोपनीयता शामिल है क्योंकि सभी प्रोसेसिंग ब्राउज़र में स्थानीय रूप से होती है।",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -250,10 +466,22 @@
                 "githubBackendUrl": "",
                 "description": "एक QR कोड प्रबंधन एप्लिकेशन जो आपको कस्टम लोगो के साथ QR कोड बनाने, छवियों से QR कोड पढ़ने और कैमरे के माध्यम से QR कोड स्कैन करके डेटा तुरंत प्रदर्शित करने की अनुमति देती है। इसमें एक आकर्षक और प्रतिक्रियाशील डिजाइन है।",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ],
                 "Rapport": " "
             },
@@ -265,9 +493,18 @@
                 "githubBackendUrl": "",
                 "description": "एक एप्लिकेशन जो एक सहज खरीदारी अनुभव प्रदान करती है, जिससे उपयोगकर्ताओं के लिए उत्पादों को ब्राउज़ करना और उन्हें अपने कार्ट में जोड़ना आसान होता है। एप्लिकेशन में एक आधुनिक और नवाचारी डिजाइन है जो उपयोगकर्ता अनुभव को बेहतर बनाता है, तत्काल प्रतिक्रिया और इंटरैक्टिव तत्वों के साथ जो खरीदारी को और अधिक आनंददायक बनाते हैं।",
                 "technologies": [
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             }
         ],
@@ -426,13 +663,34 @@
         "backToTop": "ऊपर वापस जाएँ",
         "siteMapLabel": "साइट मैप",
         "links": [
-            {"name":"मेरे बारे में","path":"/About"},
-            {"name":"सेवाएं","path":"/Services"},
-            {"name":"कौशल","path":"/Skills"},
-            {"name":"प्रोजेक्ट्स","path":"/Projects"},
-            {"name":"अनुभव","path":"/Experience"},
-            {"name":"शिक्षा","path":"/Education"},
-            {"name":"संपर्क","path":"/Contact"}
+            {
+                "name": "मेरे बारे में",
+                "path": "/About"
+            },
+            {
+                "name": "सेवाएं",
+                "path": "/Services"
+            },
+            {
+                "name": "कौशल",
+                "path": "/Skills"
+            },
+            {
+                "name": "प्रोजेक्ट्स",
+                "path": "/Projects"
+            },
+            {
+                "name": "अनुभव",
+                "path": "/Experience"
+            },
+            {
+                "name": "शिक्षा",
+                "path": "/Education"
+            },
+            {
+                "name": "संपर्क",
+                "path": "/Contact"
+            }
         ],
         "connectLabel": "संपर्क करें",
         "emailLabel": "ईमेल",

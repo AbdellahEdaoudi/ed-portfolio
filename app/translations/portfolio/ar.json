@@ -20,7 +20,7 @@
         "switchToLight": "التبديل للوضع الفاتح",
         "switchToDark": "التبديل للوضع الداكن"
     },
-    "home": {
+    "hero": {
         "greeting": "مرحباً، أنا عبد الله الداودي (Abdellah Edaoudi)",
         "role": "🔷 مطور Full Stack 🔷",
         "description": "أنا متخصص في بناء تطبيقات الويب المتكاملة (Full-Stack) الآمنة وعالية الأداء باستخدام React.js و Node.js و Next.js و NestJS و TypeScript. أركز على تقديم حلول قابلة للتوسع مع كود نظيف، قابل للصيانة وتجربة مستخدم رائعة.",
@@ -63,10 +63,22 @@
         "otherTitle": "أخرى",
         "softSkillsTitle": "المهارات الشخصية",
         "softSkills": [
-            {"name":"حل المشكلات","image":"/Skills/Problem Solving.png"},
-            {"name":"العمل الجماعي","image":"/Skills/Teamwork.jpg"},
-            {"name":"التواصل","image":"/Skills/Communication.png"},
-            {"name":"القدرة على التكيف","image":"/Skills/Adaptability.png"}
+            {
+                "name": "حل المشكلات",
+                "image": "/Skills/Problem Solving.png"
+            },
+            {
+                "name": "العمل الجماعي",
+                "image": "/Skills/Teamwork.jpg"
+            },
+            {
+                "name": "التواصل",
+                "image": "/Skills/Communication.png"
+            },
+            {
+                "name": "القدرة على التكيف",
+                "image": "/Skills/Adaptability.png"
+            }
         ]
     },
     "projects": {
@@ -86,16 +98,46 @@
                 "githubNestjsBackendUrl": "https://github.com/AbdellahEdaoudi/nestjs-dgtportfolio-server",
                 "description": "منصة SaaS شاملة تتيح للمستخدمين إنشاء محافظ احترافية بسهولة تامة. توفر دعمًا متعدد اللغات، وتكامل نطاق مخصص، واختيار سمات ديناميكية، وإنشاء سيرة ذاتية في الوقت الفعلي، ولوحة إدارة بديهية لإدارة المحتوى والاشتراكات والتحليلات.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Nestjs","logo":"/Skills/Nestjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"PayPal","logo":"/Skills/paypal.png"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Nestjs",
+                        "logo": "/Skills/Nestjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "PayPal",
+                        "logo": "/Skills/paypal.png"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    }
                 ]
             },
             {
@@ -106,15 +148,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-hotel-app.git",
                 "description": "يوفر نظام إدارة الفنادق حلاً شاملاً لإدارة حجوزات الغرف والمدفوعات. يتيح للمستخدمين حجز الغرف بسهولة وتلقي تذكرة إلكترونية للتأكيد. يتضمن النظام لوحة تحكم لإدارة الحجوزات والمدفوعات والردود على العملاء عبر البريد الإلكتروني.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"stripe","logo":"/Skills/stripe.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "stripe",
+                        "logo": "/Skills/stripe.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -126,15 +195,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-Chat-Application",
                 "description": "نظام الدردشة الآمن في الوقت الفعلي هو تطبيق مراسلة فورية عالي الأداء بأمان متقدم. يستخدم Socket.io للاتصال في الوقت الفعلي ويطبق التشفير من طرف إلى طرف (E2EE) لضمان خصوصية الرسائل. كما يتضمن نظام مصادقة قويًا باستخدام JWT وتجزئة كلمات المرور باستخدام Bcrypt، مما يضمن حماية بيانات المستخدم بأعلى المعايير.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"Socket.IO","logo":"/Skills/Socket.io.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "logo": "/Skills/Socket.io.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -147,14 +243,38 @@
                 "githubBackendUrl": "",
                 "description": "نظام خلفي قوي وقابل للتطوير لمنصة التجارة الإلكترونية. يتعامل النظام مع وظائف متعددة مثل إدارة المستخدمين، وتنظيم مخزون المنتجات، ومعالجة الطلبات، ومعالجة المدفوعات (نقدًا أو بالبطاقة)، وإضافة القسائم، والمراجعات، وإدارة الفئات والعلامات التجارية، وإدارة الموردين، وتنظيم الضرائب.",
                 "technologies": [
-                    {"name":"Nestjs","logo":"/Skills/Nestjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Typescript ","logo":"/Skills/typescript.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"stripe","logo":"/Skills/stripe.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Nestjs",
+                        "logo": "/Skills/Nestjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Typescript ",
+                        "logo": "/Skills/typescript.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "stripe",
+                        "logo": "/Skills/stripe.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -166,14 +286,38 @@
                 "githubBackendUrl": "",
                 "description": "منصة تعليمية وتربوية متكاملة لمؤسسة مكة المكرمة للتعليم الأولي بمدينة العيون. تهدف لتقديم تعليم عالي الجودة للطفولة المبكرة، وتستعرض البرامج التعليمية المختلفة (الروض، التمهيدي الأول، والتمهيدي الثاني)، مع نظام تواصل واستفسارات ومتابعة أولياء الأمور.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -185,10 +329,22 @@
                 "githubBackendUrl": "",
                 "description": "منصة إسلامية وتفاعلية لمسجد حسن الدرهم بمدينة العيون (المملكة المغربية). توفر المواقيت الدقيقة للصلوات الخمس والشروق، العداد التنازلي الحي للصلاة القادمة مع إمكانية الاستماع للأذان المغربي الخاشع، بوصلة تحديد اتجاه القبلة، وخريطة الموقع والتوجيه الجغرافي.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -200,15 +356,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "بورتفوليو شخصي حديث ومتجاوب وتفاعلي بالكامل تم بناؤه باستخدام Next.js و Tailwind CSS. يتميز بدعم التدويل (i18n) لدعم لغات متعددة، مع حركات سلسة لعرض مهاراتي ومشاريعي وخبراتي المهنية بطريقة جذابة ومميزة.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -219,13 +402,34 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Resume-Platform-Project-Server",
                 "description": "تطبيق مبتكر قمت بتطويره، يتيح للمستخدمين عرض سيرتهم الذاتية المهنية وروابط وسائل التواصل الاجتماعي في مكان واحد. يساعد هذا التطبيق المستخدمين على إدارة هويتهم الرقمية بشكل فعال، مما يجعله أداة مثالية للباحثين عن عمل أو أي شخص يسعى إلى تعزيز حضوره الرقمي وتأثيره على الإنترنت.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Socket.IO","logo":"/Skills/Socket.io.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "logo": "/Skills/Socket.io.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -236,10 +440,22 @@
                 "githubBackendUrl": "",
                 "description": "أداة قوية وآمنة لضغط الصور تعمل في المتصفح. تتيح للمستخدمين ضغط عدد غير محدود من صور JPG وPNG وWebP بنسبة تصل إلى 90% دون فقدان الجودة. تشمل الميزات الضغط الجماعي، وإنشاء ملفات PDF، وواجهة السحب والإفلات والخصوصية الكاملة حيث تتم جميع عمليات المعالجة محليًا في المتصفح.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -250,10 +466,22 @@
                 "githubBackendUrl": "",
                 "description": "تطبيق لإدارة رموز QR يتيح لك إنشاء رموز QR مع شعارات مخصصة، وقراءة رموز QR من الصور، ومسح رموز QR عبر الكاميرا لعرض البيانات فورًا. يتميز بتصميم جذاب وسريع الاستجابة.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ],
                 "Rapport": " "
             },
@@ -265,9 +493,18 @@
                 "githubBackendUrl": "",
                 "description": "تطبيق يوفر تجربة تسوق سلسة، مما يسهل على المستخدمين تصفح المنتجات وإضافة العناصر إلى عربة التسوق الخاصة بهم. يتميز التطبيق بتصميم حديث ومبتكر يعزز تجربة المستخدم، مع استجابة فورية وعناصر تفاعلية تجعل التسوق أكثر متعة.",
                 "technologies": [
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             }
         ],
@@ -426,13 +663,34 @@
         "backToTop": "الرجوع للأعلى",
         "siteMapLabel": "خريطة الموقع",
         "links": [
-            {"name":"نبذة عني","path":"/About"},
-            {"name":"الخدمات","path":"/Services"},
-            {"name":"المهارات","path":"/Skills"},
-            {"name":"المشاريع","path":"/Projects"},
-            {"name":"الخبرة","path":"/Experience"},
-            {"name":"التعليم","path":"/Education"},
-            {"name":"تواصل معي","path":"/Contact"}
+            {
+                "name": "نبذة عني",
+                "path": "/About"
+            },
+            {
+                "name": "الخدمات",
+                "path": "/Services"
+            },
+            {
+                "name": "المهارات",
+                "path": "/Skills"
+            },
+            {
+                "name": "المشاريع",
+                "path": "/Projects"
+            },
+            {
+                "name": "الخبرة",
+                "path": "/Experience"
+            },
+            {
+                "name": "التعليم",
+                "path": "/Education"
+            },
+            {
+                "name": "تواصل معي",
+                "path": "/Contact"
+            }
         ],
         "connectLabel": "تواصل معي",
         "emailLabel": "البريد الإلكتروني",

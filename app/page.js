@@ -1,4 +1,4 @@
-import Home from "./Components/Pages/Home";
+import Hero from "./Components/Pages/Hero";
 import About from "./Components/Pages/About";
 import Services from "./Components/Pages/Services";
 import Skills from "./Components/Pages/Skills";
@@ -44,7 +44,7 @@ export default async function Page() {
   return (
     <div>
       <Header content={dictionary.header} lang="en" />
-      <Home content={dictionary.home} lang="en" />
+      <Hero content={dictionary.hero} lang="en" />
       <About content={dictionary.about} lang="en" />
       <Services content={dictionary.services} lang="en" />
       <Skills content={dictionary.skills} lang="en" />

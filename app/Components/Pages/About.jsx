@@ -30,7 +30,7 @@ function About({ content, lang }) {
               <div className="relative bg-white dark:bg-slate-900 p-2 rounded-[2.5rem] overflow-hidden">
                 <div className="overflow-hidden rounded-[2rem] relative">
                   <Image
-                    src="/about/about-image.jpg"
+                    src="/about/image.jpg"
                     alt="Abdellah Edaoudi - About Me"
                     className="md:w-80 object-cover w-72 sm:w-80 transform transition-transform duration-1000 group-hover:scale-105"
                     width={500}

@@ -20,7 +20,7 @@
         },
         "services": "Hizmetler"
     },
-    "home": {
+    "hero": {
         "greeting": "Merhaba, Ben Abdellah Edaoudi",
         "role": "🔷 Full Stack Geliştirici 🔷",
         "description": "React.js, Node.js, Next.js, NestJS ve TypeScript kullanarak güvenli ve yüksek performanslı full-stack web uygulamaları geliştirme konusunda uzmanım. Temiz, bakımı kolay kodlar ve harika bir kullanıcı deneyimi ile ölçeklenebilir çözümler sunmaya odaklanıyorum.",
@@ -63,10 +63,22 @@
         "toolsTitle": "Geliştirme Araçları",
         "softSkillsTitle": "Sosyal Beceriler",
         "softSkills": [
-            {"name":"Problem Çözme","image":"/Skills/Problem Solving.png"},
-            {"name":"Takım Çalışması","image":"/Skills/Teamwork.jpg"},
-            {"name":"İletişim","image":"/Skills/Communication.png"},
-            {"name":"Uyumluluk","image":"/Skills/Adaptability.png"}
+            {
+                "name": "Problem Çözme",
+                "image": "/Skills/Problem Solving.png"
+            },
+            {
+                "name": "Takım Çalışması",
+                "image": "/Skills/Teamwork.jpg"
+            },
+            {
+                "name": "İletişim",
+                "image": "/Skills/Communication.png"
+            },
+            {
+                "name": "Uyumluluk",
+                "image": "/Skills/Adaptability.png"
+            }
         ]
     },
     "projects": {
@@ -86,16 +98,46 @@
                 "githubNestjsBackendUrl": "https://github.com/AbdellahEdaoudi/nestjs-dgtportfolio-server",
                 "description": "Kullanıcıların zahmetsizce profesyonel portföyler oluşturmasına olanak tanıyan eksiksiz bir SaaS platformu. Çok dilli destek, özel alan adı entegrasyonu, dinamik tema seçimi, gerçek zamanlı özgeçmiş oluşturma ve içerik, abonelik ve analizleri yönetmek için sezgisel bir yönetici paneli sunar.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Nestjs","logo":"/Skills/Nestjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"PayPal","logo":"/Skills/paypal.png"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Nestjs",
+                        "logo": "/Skills/Nestjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "PayPal",
+                        "logo": "/Skills/paypal.png"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    }
                 ]
             },
             {
@@ -106,15 +148,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-hotel-app.git",
                 "description": "Otel yönetim sistemi, oda rezervasyonlarını ve ödemeleri yönetmek için kapsamlı bir çözüm sunar. Kullanıcıların kolayca oda rezervasyonu yapmasına ve elektronik onay bileti almasına olanak tanır. Sistem, rezervasyonları, ödemeleri ve e-posta yoluyla müşteri yanıtlarını yönetmek için bir panel içerir.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"stripe","logo":"/Skills/stripe.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "stripe",
+                        "logo": "/Skills/stripe.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -126,15 +195,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-Chat-Application",
                 "description": "Güvenli Gerçek Zamanlı Sohbet Sistemi, gelişmiş güvenliğe sahip yüksek performanslı bir anlık mesajlaşma uygulamasıdır. Gerçek zamanlı iletişim için Socket.io kullanır ve mesajların gizliliğini sağlamak için Uçtan Uca Şifreleme (E2EE) uygular. Ayrıca, kullanıcı verilerinin en yüksek standartlarda korunmasını sağlayan JWT aracılığıyla güçlü bir kimlik doğrulama sistemi ve Bcrypt ile parola karma içerir.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"Socket.IO","logo":"/Skills/Socket.io.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "logo": "/Skills/Socket.io.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -147,14 +243,38 @@
                 "githubBackendUrl": "",
                 "description": "Bir e-ticaret platformu için sağlam ve ölçeklenebilir bir arka uç sistemi. Sistem, kullanıcı yönetimi, ürün envanteri organizasyonu, sipariş işleme, ödeme işleme (nakit veya kart), kupon ekleme, incelemeler, kategori ve marka yönetimi, tedarikçi yönetimi ve vergi düzenlemesi gibi çeşitli işlevleri yerine getirir.",
                 "technologies": [
-                    {"name":"Nestjs","logo":"/Skills/Nestjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Typescript ","logo":"/Skills/typescript.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"stripe","logo":"/Skills/stripe.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Nestjs",
+                        "logo": "/Skills/Nestjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Typescript ",
+                        "logo": "/Skills/typescript.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "stripe",
+                        "logo": "/Skills/stripe.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -166,14 +286,38 @@
                 "githubBackendUrl": "",
                 "description": "Laayoune'daki Mekka Erken Çocukluk Eğitimi Kurumu için entegre bir eğitim ve pedagoji platformu. Eğitim programları (Kreş, Okul Öncesi, Anaokulu), etkileşimli değerler ve sorgulama sistemiyle yüksek kaliteli erken çocukluk eğitimi sunmak için tasarlanmıştır.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -185,10 +329,22 @@
                 "githubBackendUrl": "",
                 "description": "Fas'ın Laayoune şehirindeki Hassan Al-Derhem Camii için interaktif bir İslami platform. Günlük namaz vakitlerini hassas biçimde gösterir, Maroka Ezanlı bir sonraki namaz için canlı geri sayım, Kıble yön pusulası ve Google Maps entegrasyonu içerir.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -200,15 +356,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "Next.js ve Tailwind CSS ile oluşturulmuş modern, son derece etkileşimli ve duyarlı bir kişisel portföy. Birden fazla dili destekleyen çoklu dil desteği (i18n) ve becerilerimi, projelerimi ve mesleki deneyimimi çekici bir şekilde sergilemek için akıcı animasyonlar içerir.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -219,13 +402,34 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Resume-Platform-Project-Server",
                 "description": "Geliştirdiğim yenilikçi bir uygulama; kullanıcıların profesyonel özgeçmişlerini ve sosyal medya bağlantılarını tek bir yerde sunmalarına olanak tanır. Bu uygulama, kullanıcıların dijital kimliklerini etkin bir şekilde yönetmelerine yardımcı olarak, iş arayanlar veya çevrimiçi varlıklarını ve dijital etkilerini geliştirmek isteyen herkes için ideal bir araç haline getiriyor.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Socket.IO","logo":"/Skills/Socket.io.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "logo": "/Skills/Socket.io.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -236,10 +440,22 @@
                 "githubBackendUrl": "",
                 "description": "Tarayıcı tabanlı güçlü ve güvenli bir görüntü sıkıştırma aracı. Kullanıcıların sınırsız JPG, PNG ve WebP görüntüsünü kalite kaybı olmadan %90'a kadar sıkıştırmasına olanak tanır. Özellikler arasında toplu sıkıştırma, PDF oluşturma, sürükle ve bırak arayüzü ve tüm işlemlerin tarayıcıda yerel olarak gerçekleşmesi nedeniyle tam gizlilik bulunmaktadır.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -250,10 +466,22 @@
                 "githubBackendUrl": "",
                 "description": "Özel logolarla QR kodları oluşturmanıza, görüntülerden QR kodları okumanıza ve verileri anında görüntülemek için kamera aracılığıyla QR kodlarını taramanıza olanak tanıyan bir QR Kodu yönetim uygulaması. Çekici ve duyarlı bir tasarıma sahiptir.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ],
                 "Rapport": " "
             },
@@ -265,9 +493,18 @@
                 "githubBackendUrl": "",
                 "description": "Kullanıcıların ürünlere göz atmalarını ve sepetlerine ürün eklemelerini kolaylaştıran kesintisiz bir alışveriş deneyimi sunan bir uygulama. Uygulama, kullanıcı deneyimini geliştiren, anlık yanıt verebilirlik ve alışverişi daha keyifli hale getiren etkileşimli öğeler içeren modern ve yenilikçi bir tasarıma sahiptir.",
                 "technologies": [
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             }
         ],
@@ -426,13 +663,34 @@
         "backToTop": "Başa dön",
         "siteMapLabel": "Site Haritası",
         "links": [
-            {"name":"Hakkımda","path":"/About"},
-            {"name":"Hizmetler","path":"/Services"},
-            {"name":"Yetenekler","path":"/Skills"},
-            {"name":"Projeler","path":"/Projects"},
-            {"name":"Deneyim","path":"/Experience"},
-            {"name":"Eğitim","path":"/Education"},
-            {"name":"İletişim","path":"/Contact"}
+            {
+                "name": "Hakkımda",
+                "path": "/About"
+            },
+            {
+                "name": "Hizmetler",
+                "path": "/Services"
+            },
+            {
+                "name": "Yetenekler",
+                "path": "/Skills"
+            },
+            {
+                "name": "Projeler",
+                "path": "/Projects"
+            },
+            {
+                "name": "Deneyim",
+                "path": "/Experience"
+            },
+            {
+                "name": "Eğitim",
+                "path": "/Education"
+            },
+            {
+                "name": "İletişim",
+                "path": "/Contact"
+            }
         ],
         "connectLabel": "Bağlan",
         "emailLabel": "E-posta",

@@ -20,7 +20,7 @@
         },
         "services": "Usługi"
     },
-    "home": {
+    "hero": {
         "greeting": "Cześć, jestem Abdellah Edaoudi",
         "role": "🔷 Full Stack Developer 🔷",
         "description": "Specjalizuję się w tworzeniu bezpiecznych i wysoce wydajnych aplikacji internetowych full-stack przy użyciu React.js, Node.js, Next.js, NestJS i TypeScript. Koncentruję się na dostarczaniu skalowalnych rozwiązań z czystym, łatwym w utrzymaniu kodem i doskonałym doświadczeniem użytkownika.",
@@ -63,10 +63,22 @@
         "toolsTitle": "Narzędzia deweloperskie",
         "softSkillsTitle": "Umiejętności miękkie",
         "softSkills": [
-            {"name":"Rozwiązywanie problemów","image":"/Skills/Problem Solving.png"},
-            {"name":"Praca zespołowa","image":"/Skills/Teamwork.jpg"},
-            {"name":"Komunikacja","image":"/Skills/Communication.png"},
-            {"name":"Adaptacyjność","image":"/Skills/Adaptability.png"}
+            {
+                "name": "Rozwiązywanie problemów",
+                "image": "/Skills/Problem Solving.png"
+            },
+            {
+                "name": "Praca zespołowa",
+                "image": "/Skills/Teamwork.jpg"
+            },
+            {
+                "name": "Komunikacja",
+                "image": "/Skills/Communication.png"
+            },
+            {
+                "name": "Adaptacyjność",
+                "image": "/Skills/Adaptability.png"
+            }
         ]
     },
     "projects": {
@@ -86,16 +98,46 @@
                 "githubNestjsBackendUrl": "https://github.com/AbdellahEdaoudi/nestjs-dgtportfolio-server",
                 "description": "Kompletna platforma SaaS umożliwiająca użytkownikom tworzenie profesjonalnych portfolio bez wysiłku. Oferuje obsługę wielu języków, integrację niestandardowej domeny, dynamiczny wybór motywów, generowanie CV w czasie rzeczywistym i intuicyjny panel administratora do zarządzania treściami, subskrypcjami i analizami.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Nestjs","logo":"/Skills/Nestjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"PayPal","logo":"/Skills/paypal.png"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Nestjs",
+                        "logo": "/Skills/Nestjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "PayPal",
+                        "logo": "/Skills/paypal.png"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    }
                 ]
             },
             {
@@ -106,15 +148,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-hotel-app.git",
                 "description": "System zarządzania hotelem zapewnia kompleksowe rozwiązanie do zarządzania rezerwacjami pokoi i płatnościami. Pozwala użytkownikom łatwo rezerwować pokoje i otrzymywać elektroniczny bilet potwierdzający. System zawiera panel do zarządzania rezerwacjami, płatnościami i odpowiedziami klientów przez e-mail.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"stripe","logo":"/Skills/stripe.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "stripe",
+                        "logo": "/Skills/stripe.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -126,15 +195,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-Chat-Application",
                 "description": "Bezpieczny System Czatów w Czasie Rzeczywistym to wydajna aplikacja do obsługi wiadomości błyskawicznych z zaawansowanymi zabezpieczeniami. Używa Socket.io do komunikacji w czasie rzeczywistym i implementuje szyfrowanie end-to-end (E2EE), aby zapewnić prywatność wiadomości. Zawiera również solidny system uwierzytelniania z JWT i haszowaniem haseł z Bcrypt, zapewniając ochronę danych użytkownika na najwyższym poziomie.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"Socket.IO","logo":"/Skills/Socket.io.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "logo": "/Skills/Socket.io.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -147,14 +243,38 @@
                 "githubBackendUrl": "",
                 "description": "Solidny i skalowalny system zaplecza dla platformy e-commerce. System obsługuje różne funkcje, takie jak zarządzanie użytkownikami, organizacja inwentarza produktów, przetwarzanie zamówień, obsługa płatności (gotówką lub kartą), dodawanie kuponów, recenzje, zarządzanie kategoriami i markami, zarządzanie dostawcami i regulacja podatkowa.",
                 "technologies": [
-                    {"name":"Nestjs","logo":"/Skills/Nestjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Typescript ","logo":"/Skills/typescript.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"stripe","logo":"/Skills/stripe.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Nestjs",
+                        "logo": "/Skills/Nestjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Typescript ",
+                        "logo": "/Skills/typescript.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "stripe",
+                        "logo": "/Skills/stripe.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -166,14 +286,38 @@
                 "githubBackendUrl": "",
                 "description": "Zintegrowana platforma edukacyjna i pedagogiczna dla Instytutu Wychowania Wczesnodziecięcego Mekka w Laayoune. Zaprojektowana w celu zapewnienia wysokiej jakości edukacji wczesnodziecięcej, oferująca programy edukacyjne (Żłobek, Przedszkole, Zerówka), interaktywne wartości oraz system zapytań.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -185,10 +329,22 @@
                 "githubBackendUrl": "",
                 "description": "Interaktywna islamska platforma dla Meczetu Hassan Al-Derhem w Laayoune, Maroko. Zawiera dokładne codzienne harmonogramy modlitw, odliczanie na żywo do następnej modlitwy z marokańskim dźwiękiem Adhan, kompas kierunku Qibla oraz integrację z Google Maps.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -200,15 +356,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "Nowoczesne, wysoce interaktywne i responsywne portfolio osobiste zbudowane przy użyciu Next.js i Tailwind CSS. Zawiera internacjonalizację (i18n) obsługującą wiele języków oraz płynne animacje do prezentacji moich umiejętności, projektów i doświadczenia zawodowego w angażujący sposób.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -219,13 +402,34 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Resume-Platform-Project-Server",
                 "description": "Innowacyjna aplikacja, którą opracowałem, umożliwiająca użytkownikom prezentowanie profesjonalnego CV i linków do mediów społecznościowych w jednym miejscu. Aplikacja ta pomaga użytkownikom efektywnie zarządzać swoją cyfrową tożsamością, czyniąc ją idealnym narzędziem dla osób szukających pracy lub kogokolwiek, kto chce poprawić swoją obecność online i cyfrowy wpływ.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Socket.IO","logo":"/Skills/Socket.io.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "logo": "/Skills/Socket.io.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -236,10 +440,22 @@
                 "githubBackendUrl": "",
                 "description": "Wydajne i bezpieczne narzędzie do kompresji obrazów oparte na przeglądarce. Umożliwia użytkownikom kompresję nieograniczonej liczby obrazów JPG, PNG i WebP o 90% bez utraty jakości. Funkcje obejmują kompresję zbiorczą, generowanie PDF, interfejs przeciągania i upuszczania oraz pełną prywatność, ponieważ całe przetwarzanie odbywa się lokalnie w przeglądarce.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -250,10 +466,22 @@
                 "githubBackendUrl": "",
                 "description": "Aplikacja do zarządzania kodami QR, która pozwala tworzyć kody QR z niestandardowymi logotypami, odczytywać kody QR z obrazów i skanować kody QR za pomocą kamery, aby natychmiast wyświetlać dane. Posiada atrakcyjny i responsywny design.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ],
                 "Rapport": " "
             },
@@ -265,9 +493,18 @@
                 "githubBackendUrl": "",
                 "description": "Aplikacja oferująca płynne zakupy, ułatwiająca użytkownikom przeglądanie produktów i dodawanie artykułów do koszyka. Aplikacja posiada nowoczesny i innowacyjny design, który poprawia doświadczenie użytkownika, z natychmiastową responsywnością i interaktywnymi elementami, które sprawiają, że zakupy są przyjemniejsze.",
                 "technologies": [
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             }
         ],
@@ -426,13 +663,34 @@
         "backToTop": "Powrót na górę",
         "siteMapLabel": "Mapa strony",
         "links": [
-            {"name":"O mnie","path":"/About"},
-            {"name":"Usługi","path":"/Services"},
-            {"name":"Umiejętności","path":"/Skills"},
-            {"name":"Projekty","path":"/Projects"},
-            {"name":"Doświadczenie","path":"/Experience"},
-            {"name":"Edukacja","path":"/Education"},
-            {"name":"Kontakt","path":"/Contact"}
+            {
+                "name": "O mnie",
+                "path": "/About"
+            },
+            {
+                "name": "Usługi",
+                "path": "/Services"
+            },
+            {
+                "name": "Umiejętności",
+                "path": "/Skills"
+            },
+            {
+                "name": "Projekty",
+                "path": "/Projects"
+            },
+            {
+                "name": "Doświadczenie",
+                "path": "/Experience"
+            },
+            {
+                "name": "Edukacja",
+                "path": "/Education"
+            },
+            {
+                "name": "Kontakt",
+                "path": "/Contact"
+            }
         ],
         "connectLabel": "Połącz",
         "emailLabel": "E-mail",

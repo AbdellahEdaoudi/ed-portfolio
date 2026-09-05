@@ -20,7 +20,7 @@
         },
         "services": "Dịch vụ"
     },
-    "home": {
+    "hero": {
         "greeting": "Xin chào, tôi là Abdellah Edaoudi",
         "role": "🔷 Lập trình viên Full Stack 🔷",
         "description": "Tôi chuyên xây dựng các ứng dụng web full-stack an toàn và hiệu năng cao bằng cách sử dụng React.js, Node.js, Next.js, NestJS và TypeScript. Tôi tập trung vào việc cung cấp các giải pháp có thể mở rộng với mã nguồn sạch, dễ bảo trì và trải nghiệm người dùng tuyệt vời.",
@@ -63,10 +63,22 @@
         "otherTitle": "Khác",
         "softSkillsTitle": "Kỹ năng mềm",
         "softSkills": [
-            {"name":"Giải quyết vấn đề","image":"/Skills/Problem Solving.png"},
-            {"name":"Làm việc nhóm","image":"/Skills/Teamwork.jpg"},
-            {"name":"Giao tiếp","image":"/Skills/Communication.png"},
-            {"name":"Thích nghi","image":"/Skills/Adaptability.png"}
+            {
+                "name": "Giải quyết vấn đề",
+                "image": "/Skills/Problem Solving.png"
+            },
+            {
+                "name": "Làm việc nhóm",
+                "image": "/Skills/Teamwork.jpg"
+            },
+            {
+                "name": "Giao tiếp",
+                "image": "/Skills/Communication.png"
+            },
+            {
+                "name": "Thích nghi",
+                "image": "/Skills/Adaptability.png"
+            }
         ]
     },
     "projects": {
@@ -86,16 +98,46 @@
                 "githubNestjsBackendUrl": "https://github.com/AbdellahEdaoudi/nestjs-dgtportfolio-server",
                 "description": "Một nền tảng SaaS hoàn chỉnh cho phép người dùng tạo danh mục đầu tư chuyên nghiệp một cách dễ dàng. Cung cấp hỗ trợ đa ngôn ngữ, tích hợp tên miền tùy chỉnh, lựa chọn chủ đề động, tạo sơ yếu lý lịch theo thời gian thực và bảng quản trị trực quan để quản lý nội dung, đăng ký và phân tích.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Nestjs","logo":"/Skills/Nestjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"PayPal","logo":"/Skills/paypal.png"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Nestjs",
+                        "logo": "/Skills/Nestjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "PayPal",
+                        "logo": "/Skills/paypal.png"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    }
                 ]
             },
             {
@@ -106,15 +148,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-hotel-app.git",
                 "description": "Hệ thống quản lý khách sạn cung cấp một giải pháp toàn diện để quản lý đặt phòng và thanh toán. Cho phép người dùng dễ dàng đặt phòng và nhận vé điện tử xác nhận. Hệ thống bao gồm bảng điều khiển để quản lý đặt phòng, thanh toán và phản hồi khách hàng qua email.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"stripe","logo":"/Skills/stripe.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "stripe",
+                        "logo": "/Skills/stripe.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -126,15 +195,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-Chat-Application",
                 "description": "Hệ thống Chat An toàn theo Thời gian thực là ứng dụng nhắn tin tức thời hiệu suất cao với bảo mật nâng cao. Sử dụng Socket.io để giao tiếp theo thời gian thực và triển khai mã hóa đầu cuối (E2EE) để đảm bảo quyền riêng tư của tin nhắn. Cũng bao gồm hệ thống xác thực mạnh mẽ qua JWT và băm mật khẩu với Bcrypt, đảm bảo bảo vệ dữ liệu người dùng ở tiêu chuẩn cao nhất.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"Socket.IO","logo":"/Skills/Socket.io.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "logo": "/Skills/Socket.io.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -147,14 +243,38 @@
                 "githubBackendUrl": "",
                 "description": "Một hệ thống backend mạnh mẽ và có thể mở rộng cho nền tảng thương mại điện tử. Hệ thống xử lý các chức năng khác nhau như quản lý người dùng, tổ chức hàng tồn kho sản phẩm, xử lý đơn hàng, xử lý thanh toán (bằng tiền mặt hoặc thẻ), thêm phiếu giảm giá, đánh giá, quản lý danh mục và thương hiệu, quản lý nhà cung cấp và quy định thuế.",
                 "technologies": [
-                    {"name":"Nestjs","logo":"/Skills/Nestjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Typescript ","logo":"/Skills/typescript.png"},
-                    {"name":"jwt ","logo":"/Skills/jwt.jpg"},
-                    {"name":"stripe","logo":"/Skills/stripe.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Nestjs",
+                        "logo": "/Skills/Nestjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Typescript ",
+                        "logo": "/Skills/typescript.png"
+                    },
+                    {
+                        "name": "jwt ",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "stripe",
+                        "logo": "/Skills/stripe.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -166,14 +286,38 @@
                 "githubBackendUrl": "",
                 "description": "Nền tảng giáo dục và sư phạm tích hợp cho Tổ chức Giáo dục Mầm non Mekka tại Laayoune. Được thiết kế để cung cấp giáo dục mầm non chất lượng cao, bao gồm các chương trình giáo dục (Nhà trẻ, Mẫu giáo, Tiểu học dự bị), giá trị tương tác và hệ thống tư vấn.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -185,10 +329,22 @@
                 "githubBackendUrl": "",
                 "description": "Nền tảng Hồi giáo tương tác cho Nhà thờ Hồi giáo Hassan Al-Derhem tại Laayoune, Maroc. Bao gồm lịch cầu nguyện hàng ngày chính xác, đếm ngược trực tiếp cho buổi cầu nguyện kế tiếp với tiếng Adhan Ma-rốc, la bàn hướng Qibla và tích hợp Google Maps.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -200,15 +356,42 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "Một portfolio cá nhân hiện đại, tương tác cao và phản hồi tốt được xây dựng bằng Next.js và Tailwind CSS. Có tính năng quốc tế hóa (i18n) hỗ trợ nhiều ngôn ngữ và hoạt ảnh mượt mà để giới thiệu kỹ năng, dự án và kinh nghiệm chuyên môn của tôi một cách hấp dẫn.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB","logo":"/Skills/Mongodb.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"},
-                    {"name":"jwt","logo":"/Skills/jwt.jpg"},
-                    {"name":"cloudinary","logo":"/Skills/cloudinary.jpg"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    },
+                    {
+                        "name": "jwt",
+                        "logo": "/Skills/jwt.jpg"
+                    },
+                    {
+                        "name": "cloudinary",
+                        "logo": "/Skills/cloudinary.jpg"
+                    }
                 ]
             },
             {
@@ -219,13 +402,34 @@
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Resume-Platform-Project-Server",
                 "description": "Ứng dụng sáng tạo tôi đã phát triển, cho phép người dùng giới thiệu sơ yếu lý lịch chuyên nghiệp và các liên kết mạng xã hội của họ tại một nơi. Ứng dụng này giúp người dùng quản lý hiệu quả danh tính kỹ thuật số của họ, biến nó thành công cụ lý tưởng cho những người tìm việc hoặc bất kỳ ai muốn cải thiện sự hiện diện trực tuyến và tầm ảnh hưởng kỹ thuật số.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Node.js","logo":"/Skills/Nodejs.png"},
-                    {"name":"Express","logo":"/Skills/ExpressJs.png"},
-                    {"name":"MongoDB ","logo":"/Skills/Mongodb.png"},
-                    {"name":"Socket.IO","logo":"/Skills/Socket.io.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/Skills/Nodejs.png"
+                    },
+                    {
+                        "name": "Express",
+                        "logo": "/Skills/ExpressJs.png"
+                    },
+                    {
+                        "name": "MongoDB ",
+                        "logo": "/Skills/Mongodb.png"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "logo": "/Skills/Socket.io.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -236,10 +440,22 @@
                 "githubBackendUrl": "",
                 "description": "Công cụ nén ảnh mạnh mẽ và an toàn dựa trên trình duyệt. Cho phép người dùng nén hình ảnh JPG, PNG và WebP không giới hạn lên tới 90% mà không mất chất lượng. Các tính năng bao gồm nén hàng loạt, tạo PDF, giao diện kéo và thả và quyền riêng tư hoàn toàn vì tất cả quá trình xử lý xảy ra cục bộ trong trình duyệt.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             },
             {
@@ -250,10 +466,22 @@
                 "githubBackendUrl": "",
                 "description": "Ứng dụng quản lý mã QR cho phép bạn tạo mã QR với logo tùy chỉnh, đọc mã QR từ hình ảnh và quét mã QR qua camera để hiển thị dữ liệu ngay lập tức. Có thiết kế hấp dẫn và phản hồi tốt.",
                 "technologies": [
-                    {"name":"Next.js","logo":"/Skills/Nextjs.jpg"},
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "Next.js",
+                        "logo": "/Skills/Nextjs.jpg"
+                    },
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ],
                 "Rapport": " "
             },
@@ -265,9 +493,18 @@
                 "githubBackendUrl": "",
                 "description": "Một ứng dụng cung cấp trải nghiệm mua sắm liền mạch, giúp người dùng dễ dàng duyệt qua các sản phẩm và thêm mặt hàng vào giỏ hàng của họ. Ứng dụng có thiết kế hiện đại và sáng tạo giúp nâng cao trải nghiệm người dùng, với khả năng phản hồi tức thì và các yếu tố tương tác giúp việc mua sắm trở nên thú vị hơn.",
                 "technologies": [
-                    {"name":"React.js","logo":"/Skills/reactjs.png"},
-                    {"name":"Tailwind CSS","logo":"/Skills/Tailwind.png"},
-                    {"name":"Git","logo":"/Skills/Git.png"}
+                    {
+                        "name": "React.js",
+                        "logo": "/Skills/reactjs.png"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "logo": "/Skills/Tailwind.png"
+                    },
+                    {
+                        "name": "Git",
+                        "logo": "/Skills/Git.png"
+                    }
                 ]
             }
         ],
@@ -426,13 +663,34 @@
         "backToTop": "Về đầu trang",
         "siteMapLabel": "Sơ đồ trang web",
         "links": [
-            {"name":"Về tôi","path":"/About"},
-            {"name":"Dịch vụ","path":"/Services"},
-            {"name":"Kỹ năng","path":"/Skills"},
-            {"name":"Dự án","path":"/Projects"},
-            {"name":"Kinh nghiệm","path":"/Experience"},
-            {"name":"Học vấn","path":"/Education"},
-            {"name":"Liên hệ","path":"/Contact"}
+            {
+                "name": "Về tôi",
+                "path": "/About"
+            },
+            {
+                "name": "Dịch vụ",
+                "path": "/Services"
+            },
+            {
+                "name": "Kỹ năng",
+                "path": "/Skills"
+            },
+            {
+                "name": "Dự án",
+                "path": "/Projects"
+            },
+            {
+                "name": "Kinh nghiệm",
+                "path": "/Experience"
+            },
+            {
+                "name": "Học vấn",
+                "path": "/Education"
+            },
+            {
+                "name": "Liên hệ",
+                "path": "/Contact"
+            }
         ],
         "connectLabel": "Kết nối",
         "emailLabel": "Email",

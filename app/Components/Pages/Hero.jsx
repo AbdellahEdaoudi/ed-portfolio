@@ -9,7 +9,7 @@ import {
   SiNestjs
 } from "react-icons/si";
 
-function Home({ content, lang }) {
+function Hero({ content, lang }) {
   if (!content) return null;
 
   const isRtl = lang === "ar" || lang === "fa";
@@ -40,8 +40,8 @@ function Home({ content, lang }) {
         {/* Profile Content - Centered */}
         <div className="space-y-6 flex flex-col items-center justify-center text-center">
           
-          {/* Greeting - Full name in one line with comfortable size */}
-          <h1 className="text-[1.4rem] min-[375px]:text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white leading-tight whitespace-nowrap" dir="auto">
+          {/* Greeting - Responsive text size and natural wrapping to prevent overflow in all languages */}
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white leading-snug break-words max-w-xl" dir="auto">
             {content.greeting}
           </h1>
 
@@ -175,4 +175,4 @@ function Home({ content, lang }) {
   );
 }
 
-export default Home;
+export default Hero;

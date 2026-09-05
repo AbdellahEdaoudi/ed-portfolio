@@ -1,5 +1,5 @@
 
-import Home from "../Components/Pages/Home";
+import Hero from "../Components/Pages/Hero";
 import About from "../Components/Pages/About";
 import Services from "../Components/Pages/Services";
 import Header from "../Components/Pages/Header";
@@ -90,7 +90,6 @@ export async function generateMetadata({ params }) {
                 'sv': '/sv',
                 'vi': '/vi',
                 'fa': '/fa',
-                'ar': '/ar',
             },
         },
     }
@@ -102,7 +101,7 @@ export default async function Page({ params }) {
     return (
         <>
             <Header content={dictionary.header} lang={lang} />
-            <Home content={dictionary.home} lang={lang} />
+            <Hero content={dictionary.hero} lang={lang} />
             <About content={dictionary.about} lang={lang} />
             <Services content={dictionary.services} lang={lang} />
             <Skills content={dictionary.skills} lang={lang} />
