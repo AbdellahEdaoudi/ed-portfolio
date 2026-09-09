@@ -1,12 +1,8 @@
 "use client"
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-
 import { useParams, usePathname, useRouter } from 'next/navigation';
-
 import { AlignJustify, ChevronDown } from '../Icons';
-
-import "flag-icons/css/flag-icons.min.css"; // Import flag-icons CSS
 import Image from 'next/image';
 import { useTheme } from '../ThemeProvider';
 
@@ -14,12 +10,12 @@ const languages = [
     { code: 'en', name: 'English', countryCode: 'gb' },
     { code: 'es', name: 'Español', countryCode: 'es' },
     { code: 'fr', name: 'Français', countryCode: 'fr' },
-    { code: 'pt', name: 'Português', countryCode: 'pt' },
     { code: 'de', name: 'Deutsch', countryCode: 'de' },
     { code: 'nl', name: 'Nederlands', countryCode: 'nl' },
     { code: 'it', name: 'Italiano', countryCode: 'it' },
+    { code: 'ar', name: 'العربية', countryCode: 'ma' },
+    { code: 'pt', name: 'Português', countryCode: 'pt' },
     { code: 'sv', name: 'Svenska', countryCode: 'se' },
-    { code: 'ar', name: 'العربية', countryCode: 'sa' },
     { code: 'ru', name: 'Русский', countryCode: 'ru' },
     { code: 'fa', name: 'فارسی', countryCode: 'ir' },
     { code: 'vi', name: 'Tiếng Việt', countryCode: 'vn' },

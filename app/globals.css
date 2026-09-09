@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+.fi {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.333333em;
+  line-height: 1em;
+}
+.fi:before {
+  content: "\00a0";
+}
+.fi-ma, .fi-ar { background-image: url("/flags/4x3/ma.svg"); }
+.fi-gb, .fi-en { background-image: url("/flags/4x3/gb.svg"); }
+.fi-fr { background-image: url("/flags/4x3/fr.svg"); }
+.fi-de { background-image: url("/flags/4x3/de.svg"); }
+.fi-nl { background-image: url("/flags/4x3/nl.svg"); }
+.fi-es { background-image: url("/flags/4x3/es.svg"); }
+.fi-it { background-image: url("/flags/4x3/it.svg"); }
+.fi-pt { background-image: url("/flags/4x3/pt.svg"); }
+.fi-se { background-image: url("/flags/4x3/se.svg"); }
+.fi-sa { background-image: url("/flags/4x3/sa.svg"); }
+.fi-ru { background-image: url("/flags/4x3/ru.svg"); }
+.fi-ir { background-image: url("/flags/4x3/ir.svg"); }
+.fi-vn { background-image: url("/flags/4x3/vn.svg"); }
+.fi-cn { background-image: url("/flags/4x3/cn.svg"); }
+.fi-jp { background-image: url("/flags/4x3/jp.svg"); }
+.fi-in { background-image: url("/flags/4x3/in.svg"); }
+.fi-tr { background-image: url("/flags/4x3/tr.svg"); }
+.fi-kr { background-image: url("/flags/4x3/kr.svg"); }
+.fi-id { background-image: url("/flags/4x3/id.svg"); }
+.fi-pl { background-image: url("/flags/4x3/pl.svg"); }
+
 .animate-float {
     animation: float 6s ease-in-out infinite;
 }
