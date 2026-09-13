@@ -351,7 +351,7 @@
                 "title": "Kişisel Geliştirici Portföyü",
                 "type": "fullstack",
                 "image": "/Projects/EdPortfolio.png",
-                "websiteUrl": "/",
+                "websiteUrl": "/tr",
                 "githubFrontendUrl": "https://github.com/AbdellahEdaoudi/My-personal-Portfolio",
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "Next.js ve Tailwind CSS ile oluşturulmuş modern, son derece etkileşimli ve duyarlı bir kişisel portföy. Birden fazla dili destekleyen çoklu dil desteği (i18n) ve becerilerimi, projelerimi ve mesleki deneyimimi çekici bir şekilde sergilemek için akıcı animasyonlar içerir.",

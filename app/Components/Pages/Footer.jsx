@@ -3,6 +3,9 @@ import Link from 'next/link'
 import { FaLinkedin, FaGithub, FaYoutube, FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import BackToTop from '../BackToTop';
+import Image from 'next/image';
+import GoldVerifiedBadge from '../GoldVerifiedBadge';
+
 export default function Footer({ content, lang }) {
 
   if (!content) return null;
@@ -24,7 +27,7 @@ export default function Footer({ content, lang }) {
 
   return (
     <footer className="w-full px-4 pb-4 md:px-10 md:pb-10 bg-slate-50 dark:bg-transparent transition-colors duration-300">
-      <div className="relative overflow-hidden bg-[#0f1d1b] dark:bg-[#070e1a] rounded-[2.5rem] pt-16 pb-12 lg:pt-20 lg:pb-16 px-8 md:px-16 lg:px-24">
+      <div className="relative overflow-hidden bg-[#0b1b2b] dark:bg-[#07131e] border border-gray-200 dark:border-[#13283d] rounded-[2.5rem] pt-16 pb-12 lg:pt-20 lg:pb-16 px-8 md:px-16 lg:px-24 shadow-2xl">
         {/* Background Decorative Lines */}
         <div className="absolute inset-0 pointer-events-none opacity-10">
           <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -38,8 +41,22 @@ export default function Footer({ content, lang }) {
           {/* Brand Section */}
           <div className="lg:col-span-5 flex flex-col items-start gap-8">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-[#c5a059] dark:bg-blue-600 flex items-center justify-center rounded-lg shadow-lg rotate-45 hover:rotate-0 transition-transform duration-500">
-                <span className="text-[#0f1d1b] dark:text-white font-bold text-xl -rotate-45 group-hover:rotate-0 transition-transform duration-500">AE</span>
+              {/* Profile Image with Gold Verified Badge */}
+              <div className="relative w-11 h-11 flex-shrink-0">
+                <div className="w-11 h-11 rounded-lg p-[2px] bg-gradient-to-tr from-amber-400 via-amber-500 to-amber-200 shadow-md">
+                  <div className="relative w-full h-full rounded-md overflow-hidden bg-slate-900">
+                    <Image
+                      src="/profile/new-profile.jpg"
+                      alt="Abdellah Edaoudi"
+                      fill
+                      className="object-cover object-center"
+                      sizes="44px"
+                    />
+                  </div>
+                </div>
+                <div className="absolute -bottom-1 -right-1 drop-shadow-md">
+                  <GoldVerifiedBadge size={16} />
+                </div>
               </div>
               <h2 className="text-white text-2xl font-bold tracking-wider uppercase">{content.name}</h2>
             </div>
@@ -54,7 +71,7 @@ export default function Footer({ content, lang }) {
                   key={idx}
                   href={social.href}
                   target="_blank"
-                  className="text-gray-400 hover:text-[#c5a059] dark:hover:text-blue-400 transition-colors duration-300 transform hover:scale-110"
+                  className="text-gray-400 hover:text-[#c5a059] dark:hover:text-[#6CABDD] transition-colors duration-300 transform hover:scale-110"
                   title={social.label}
                 >
                   <social.icon size={22} />
@@ -69,7 +86,7 @@ export default function Footer({ content, lang }) {
           <div className="lg:col-span-7 grid grid-cols-2 gap-8">
             {/* Site Map */}
             <div className="flex flex-col gap-6">
-              <h3 className="text-white font-bold uppercase tracking-widest text-sm border-b border-gray-800 dark:border-blue-900/50 pb-2 inline-block w-fit">
+              <h3 className="text-white font-bold uppercase tracking-widest text-sm border-b border-gray-800 dark:border-[#6CABDD]/30 pb-2 inline-block w-fit">
                 {content.siteMapLabel}
               </h3>
               <ul className="flex flex-col gap-4">
@@ -77,7 +94,7 @@ export default function Footer({ content, lang }) {
                   <li key={idx}>
                     <Link
                       href={`/${lang}${link.path}`}
-                      className="text-gray-400 hover:text-white dark:hover:text-blue-400 transition-colors duration-200 text-sm md:text-base font-medium"
+                      className="text-gray-400 hover:text-white dark:hover:text-[#6CABDD] transition-colors duration-200 text-sm md:text-base font-medium"
                     >
                       {link.name}
                     </Link>
@@ -88,18 +105,18 @@ export default function Footer({ content, lang }) {
 
             {/* Quick Connect */}
             <div className="flex flex-col gap-6">
-              <h3 className="text-white font-bold uppercase tracking-widest text-sm border-b border-gray-800 dark:border-blue-900/50 pb-2 inline-block w-fit">
+              <h3 className="text-white font-bold uppercase tracking-widest text-sm border-b border-gray-800 dark:border-[#6CABDD]/30 pb-2 inline-block w-fit">
                 {content.connectLabel}
               </h3>
               <ul className="flex flex-col gap-4">
                 {quickConnect.map((item, idx) => (
                   <li key={idx}>
-                    <p className="text-gray-500 dark:text-blue-400/80 text-[10px] uppercase font-bold tracking-tighter mb-1">{item.label}</p>
+                    <p className="text-gray-500 dark:text-[#6CABDD] text-[10px] uppercase font-bold tracking-tighter mb-1">{item.label}</p>
                     <Link
                       href={item.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-white transition-colors duration-200 text-sm font-medium"
+                      className="text-gray-400 hover:text-white dark:hover:text-[#6CABDD] transition-colors duration-200 text-sm font-medium"
                     >
                       {item.value}
                     </Link>
@@ -112,9 +129,9 @@ export default function Footer({ content, lang }) {
       </div>
 
       {/* Copyright Bar */}
-      <div className="w-full bg-[#c5a059] dark:bg-blue-600 py-3 mt-[-2rem] relative z-0 rounded-b-[2rem]">
+      <div className="w-full bg-[#c5a059] dark:bg-[#112d48] border-t dark:border-[#6CABDD]/20 py-3 mt-[-2rem] relative z-0 rounded-b-[2rem]">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-[#0f1d1b] dark:text-white text-[10px] md:text-xs font-bold uppercase tracking-widest">
+          <p className="text-[#0f1d1b] dark:text-[#6CABDD] text-[10px] md:text-xs font-bold uppercase tracking-widest">
             {content.copyright || 'Copyright'} © {new Date().getFullYear()} {content.name}. {content.rights}.
           </p>
         </div>

@@ -351,7 +351,7 @@
                 "title": "개인 개발자 포트폴리오",
                 "type": "fullstack",
                 "image": "/Projects/EdPortfolio.png",
-                "websiteUrl": "/",
+                "websiteUrl": "/ko",
                 "githubFrontendUrl": "https://github.com/AbdellahEdaoudi/My-personal-Portfolio",
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "Next.js와 Tailwind CSS로 구축된 현대적이고 대화형이며 반응형인 개인 포트폴리오입니다. 국제화(i18n)를 지원합니다.",

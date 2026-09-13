@@ -12,7 +12,7 @@ function Services({ content }) {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center px-4 max-w-7xl mx-auto">
         {items?.map((item, index) => (
-          <div key={index} className="bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm flex flex-col w-full max-w-sm hover:-translate-y-2 border border-emerald-100/50 dark:border-slate-800 duration-300 rounded-2xl shadow-xl hover:shadow-emerald-500/20 dark:hover:shadow-blue-500/20 p-6 transition-all group">
+          <div key={index} className="bg-white/70 dark:bg-[#0b1b2b]/70 backdrop-blur-sm flex flex-col w-full max-w-sm hover:-translate-y-2 border border-emerald-100/50 dark:border-[#13283d] duration-300 rounded-2xl shadow-xl hover:shadow-emerald-500/20 dark:hover:shadow-blue-500/20 p-6 transition-all group">
             <div className="w-14 h-14 bg-emerald-50 dark:bg-blue-950/60 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-500 dark:group-hover:bg-blue-600 transition-colors duration-300 shadow-sm">
                <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7 text-emerald-600 dark:text-blue-400 group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                  {index === 0 && <><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></>}

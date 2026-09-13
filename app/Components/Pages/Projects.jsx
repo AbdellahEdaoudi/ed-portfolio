@@ -13,10 +13,10 @@ function Projects({ content }) {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 justify-items-center px-4">
         {projects?.map((p, i) => (
-          <div key={i} className="bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm flex flex-col w-80 hover:scale-[1.03] border border-white/40 dark:border-slate-800 duration-300 rounded-lg shadow-2xl pb-4 mb-5 overflow-hidden transition-all hover:bg-white/80 dark:hover:bg-slate-900">
+          <div key={i} className="bg-white/70 dark:bg-[#0b1b2b]/70 backdrop-blur-sm flex flex-col w-80 hover:scale-[1.03] border border-white/40 dark:border-[#13283d] duration-300 rounded-lg shadow-2xl pb-4 mb-5 overflow-hidden transition-all hover:bg-white/80 dark:hover:bg-[#112438]">
             <Link href={p.websiteUrl} target="_blank" rel="noopener noreferrer">
               <Image width={800} height={450}
-                className="w-96 rounded-md border-b-2 cursor-pointer dark:border-slate-800"
+                className="w-96 rounded-md border-b-2 cursor-pointer dark:border-[#13283d]"
                 src={p.image}
                 alt={p.title || "Project Image"}
                 priority={i < 3}
@@ -31,7 +31,7 @@ function Projects({ content }) {
                 </Link>
               </div>
               {/* Description */}
-              <div className="relative px-3 py-2 text-[12px] border text-gray-500 dark:text-gray-300 dark:border-slate-800">
+              <div className="relative px-3 py-2 text-[12px] border text-gray-500 dark:text-gray-300 dark:border-[#13283d]">
                 <input type="checkbox" id={`expand-${i}`} className="peer hidden" />
                 <h2 className="line-clamp-5 peer-checked:line-clamp-none peer-checked:h-auto overflow-hidden transition-all duration-300">
                   {p.description}
@@ -48,7 +48,7 @@ function Projects({ content }) {
                 )}
               </div>
               {/* technologies */}
-              <div className="flex flex-wrap gap-2 justify-around py-2 px-1 border dark:border-slate-800">
+              <div className="flex flex-wrap gap-2 justify-around py-2 px-1 border dark:border-[#13283d]">
                 {p.technologies.map((tech, i) => (
                   <div key={i} className="flex items-center gap-1 bg-gray-100 dark:bg-slate-800 rounded-full px-1 py-0.5 shadow-sm hover:shadow-md transition-shadow duration-300 text-xs dark:border dark:border-slate-700">
                     <Image src={tech.logo} alt={tech.name} width={18} height={18} className="rounded-full w-[18px] h-[18px]" />

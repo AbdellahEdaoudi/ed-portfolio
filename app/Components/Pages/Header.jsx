@@ -5,6 +5,7 @@ import { useParams, usePathname, useRouter } from 'next/navigation';
 import { AlignJustify, ChevronDown } from '../Icons';
 import Image from 'next/image';
 import { useTheme } from '../ThemeProvider';
+import GoldVerifiedBadge from '../GoldVerifiedBadge';
 
 const languages = [
     { code: 'en', name: 'English', countryCode: 'gb' },
@@ -94,29 +95,41 @@ export default function Header({ content, lang }) {
     const selectedLang = languages.find(l => l.code === currentLang) || languages[0];
 
     return (
-        <header className="sticky top-0 z-50 bg-white/70 dark:bg-slate-900/80 backdrop-blur-md border-b border-white/20 dark:border-slate-800/80 shadow-sm transition-all duration-300">
+        <header className="sticky top-0 z-50 bg-white/70 dark:bg-[#0b1b2b]/80 backdrop-blur-md border-b border-white/20 dark:border-[#13283d]/80 shadow-sm transition-all duration-300">
             <div className='flex items-center py-4 justify-evenly text-gray-800 dark:text-gray-100 rounded-sm relative z-50'>
-                <div className='hover:scale-105 duration-300'>
-                    <Link href={`/`}>
-                        <div className="flex items-center gap-2.5 group">
-                            {/* Minimalist Logo Mark */}
-                            <div className="w-9 h-9 bg-slate-900 dark:bg-blue-800 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-emerald-500/25 dark:group-hover:shadow-blue-500/30 transition-all duration-300 group-hover:scale-105 group-hover:bg-emerald-600 dark:group-hover:bg-blue-500 relative overflow-hidden">
-                                <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-transparent to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                                <span className="font-bold text-white text-lg tracking-tighter relative z-10">AE</span>
+                <Link href={`/${lang}`} className='hover:scale-105 duration-300 cursor-pointer'>
+                    <div className="flex items-center gap-3 group">
+                        {/* Profile Image with Gold Verified Badge */}
+                        <div className="relative w-10 h-10 flex-shrink-0">
+                            <div className="w-10 h-10 rounded-lg p-[2px] bg-gradient-to-tr from-amber-400 via-amber-500 to-amber-200 shadow-md group-hover:shadow-amber-500/30 transition-all duration-300">
+                                <div className="relative w-full h-full rounded-md overflow-hidden bg-slate-900">
+                                    <Image
+                                        src="/profile/new-profile.jpg"
+                                        alt="Abdellah Edaoudi"
+                                        fill
+                                        className="object-cover object-center transition-transform duration-300"
+                                            sizes="40px"
+                                            priority
+                                        />
+                                    </div>
+                                </div>
+                                {/* Instagram Gold Verified Badge Overlay */}
+                                <div className="absolute -bottom-1 -right-1 drop-shadow-md group-hover:scale-110 transition-transform duration-300">
+                                    <GoldVerifiedBadge size={16} />
+                                </div>
                             </div>
 
-                            {/* Text Brand - Hidden on mobile, visible on desktop */}
+                            {/* Text Brand */}
                             <div className="flex flex-col">
-                                <span className="text-[10px] font-bold text-slate-400 dark:text-slate-400 uppercase tracking-[0.2em] leading-none group-hover:text-emerald-600 dark:group-hover:text-blue-400 transition-colors duration-300">
+                                <span className="text-[10px] font-bold text-slate-400 dark:text-slate-400 uppercase tracking-[0.2em] leading-none group-hover:text-amber-500 dark:group-hover:text-amber-400 transition-colors duration-300">
                                     {content.fullStack || "Full Stack"}
                                 </span>
-                                <span className="text-sm font-black text-slate-900 dark:text-slate-100 uppercase tracking-wider leading-none mt-0.5 group-hover:text-emerald-700 dark:group-hover:text-blue-400 transition-colors duration-300">
+                                <span className="text-sm font-black text-slate-900 dark:text-slate-100 uppercase tracking-wider leading-none mt-0.5 group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors duration-300">
                                     {content.developer || "Developer"}
                                 </span>
                             </div>
                         </div>
-                    </Link>
-                </div>
+                </Link>
                 <div className='hidden md:flex gap-6 items-center'>
                     {LinksHeader.map((ln, i) => (
                         <Link key={i} href={getPath(lang, ln.path)}
@@ -156,7 +169,7 @@ export default function Header({ content, lang }) {
                         </button>
 
                         <div
-                            className={`absolute top-full right-0 mt-2 w-48 bg-white dark:bg-slate-900 rounded-xl shadow-xl border border-gray-100 dark:border-slate-800 overflow-hidden max-h-80 overflow-y-auto transition-all duration-200 ${isLangOpen ? 'opacity-100 translate-y-0 visible pointer-events-auto' : 'opacity-0 -translate-y-2 invisible pointer-events-none'}`}
+                            className={`absolute top-full right-0 mt-2 w-48 bg-white dark:bg-[#0b1b2b] rounded-xl shadow-xl border border-gray-100 dark:border-[#13283d] overflow-hidden max-h-80 overflow-y-auto transition-all duration-200 ${isLangOpen ? 'opacity-100 translate-y-0 visible pointer-events-auto' : 'opacity-0 -translate-y-2 invisible pointer-events-none'}`}
                         >
                             {languages.map((langItem) => (
                                 <Link
@@ -212,7 +225,7 @@ export default function Header({ content, lang }) {
                         </button>
 
                         <div
-                            className={`absolute top-full right-0 mt-2 w-40 bg-white dark:bg-slate-900 rounded-lg shadow-lg border border-gray-100 dark:border-slate-800 overflow-hidden max-h-60 overflow-y-auto z-[60] transition-all duration-200 origin-top-right ${isMobileLangOpen ? 'opacity-100 translate-y-0 scale-100 visible pointer-events-auto' : 'opacity-0 -translate-y-2 scale-95 invisible pointer-events-none'}`}
+                            className={`absolute top-full right-0 mt-2 w-40 bg-white dark:bg-[#0b1b2b] rounded-lg shadow-lg border border-gray-100 dark:border-[#13283d] overflow-hidden max-h-60 overflow-y-auto z-[60] transition-all duration-200 origin-top-right ${isMobileLangOpen ? 'opacity-100 translate-y-0 scale-100 visible pointer-events-auto' : 'opacity-0 -translate-y-2 scale-95 invisible pointer-events-none'}`}
                         >
                             {languages.map((langItem) => (
                                 <Link
@@ -235,7 +248,7 @@ export default function Header({ content, lang }) {
             </div>
             {/* Mobile Navigation Drawer */}
             <div className={`md:hidden absolute top-full left-0 w-full overflow-hidden transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] ${menu ? 'opacity-100 translate-y-0 visible pointer-events-auto' : 'opacity-0 -translate-y-8 invisible pointer-events-none'}`}>
-                <div className="mx-4 my-4 bg-white/95 dark:bg-slate-900/95 backdrop-blur-3xl rounded-[2.5rem] shadow-2xl border border-white/20 dark:border-slate-800 overflow-hidden">
+                <div className="mx-4 my-4 bg-white/95 dark:bg-[#0b1b2b]/95 backdrop-blur-3xl rounded-[2.5rem] shadow-2xl border border-white/20 dark:border-[#13283d] overflow-hidden">
                     <div className="p-8">
                         {/* Section 1: Main Links */}
                         <div>
@@ -279,7 +292,7 @@ export default function Header({ content, lang }) {
                         </div>
 
                         {/* Section 3: Call to Action & Footer */}
-                        <div className="pt-6 border-t border-slate-100 dark:border-slate-800 flex flex-col gap-6">
+                        <div className="pt-6 border-t border-slate-100 dark:border-[#13283d] flex flex-col gap-6">
                             <Link
                                 href={getPath(lang, "/Contact")}
                                 onClick={() => setMenu(false)}

@@ -48,7 +48,7 @@ export default function Messages({ isForbidden, setIsForbidden }) {
             } else if (error.response.status === 403) {
                 setIsForbidden(true);
                 toast.error("Forbidden: You don't have permission.");
-                router.push("/");
+                router.push("/en");
             } else {
                 toast.error(`Error: ${errorMsg}`);
             }

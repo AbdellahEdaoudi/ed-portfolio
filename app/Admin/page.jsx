@@ -91,7 +91,7 @@ function Admin() {
           <div className="flex justify-between items-center h-16">
             {/* Logo / Brand */}
             <div className="flex items-center gap-3">
-              <Link href={"/"} className="bg-indigo-600 dark:bg-[#E8A33D] text-white dark:text-[#0B0D12] p-2 rounded-lg shadow-sm shadow-indigo-200 dark:shadow-[#E8A33D]/20 transition-colors duration-300">
+              <Link href={"/en"} className="bg-indigo-600 dark:bg-[#E8A33D] text-white dark:text-[#0B0D12] p-2 rounded-lg shadow-sm shadow-indigo-200 dark:shadow-[#E8A33D]/20 transition-colors duration-300">
                 <LayoutDashboard className="w-5 h-5" />
               </Link>
               <div>

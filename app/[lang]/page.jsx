@@ -39,15 +39,19 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
     const { lang } = await params;
     const t = await getMetadata(lang);
-    const meta = t.home;
+    const meta = t?.hero || {};
+
+    const title = meta.title || "Abdellah Edaoudi | Full Stack Developer";
+    const description = meta.description || "Official portfolio of Abdellah Edaoudi";
+    const keywords = meta.keywords || "";
 
     return {
-        title: meta?.title,
-        description: meta?.description,
-        keywords: meta?.keywords,
+        title,
+        description,
+        keywords,
         openGraph: {
-            title: meta?.openGraph?.title,
-            description: meta?.openGraph?.description,
+            title: meta?.openGraph?.title || title,
+            description: meta?.openGraph?.description || description,
             url: `https://abdellah-edaoudi.vercel.app/${lang}`,
             siteName: 'Abdellah Edaoudi Portfolio',
             locale: lang,
@@ -57,39 +61,40 @@ export async function generateMetadata({ params }) {
                     url: 'https://abdellah-edaoudi.vercel.app/profile/new-profile.jpg',
                     width: 1200,
                     height: 630,
-                    alt: meta?.title,
+                    alt: title,
                 },
             ],
         },
         twitter: {
             card: 'summary_large_image',
-            title: meta?.twitter?.title,
-            description: meta?.twitter?.description,
+            title: meta?.twitter?.title || title,
+            description: meta?.twitter?.description || description,
             creator: '@Edaoudi_abde',
             images: ['https://abdellah-edaoudi.vercel.app/profile/new-profile.jpg'],
         },
         alternates: {
-            canonical: `/${lang}`,
+            canonical: `https://abdellah-edaoudi.vercel.app/${lang}`,
             languages: {
-                'en': '/en',
-                'fr': '/fr',
-                'de': '/de',
-                'zh': '/zh',
-                'nl': '/nl',
-                'es': '/es',
-                'pt': '/pt',
-                'ar': '/ar',
-                'ru': '/ru',
-                'ja': '/ja',
-                'it': '/it',
-                'hi': '/hi',
-                'tr': '/tr',
-                'ko': '/ko',
-                'id': '/id',
-                'pl': '/pl',
-                'sv': '/sv',
-                'vi': '/vi',
-                'fa': '/fa',
+                'x-default': 'https://abdellah-edaoudi.vercel.app/en',
+                'en': 'https://abdellah-edaoudi.vercel.app/en',
+                'fr': 'https://abdellah-edaoudi.vercel.app/fr',
+                'de': 'https://abdellah-edaoudi.vercel.app/de',
+                'zh': 'https://abdellah-edaoudi.vercel.app/zh',
+                'nl': 'https://abdellah-edaoudi.vercel.app/nl',
+                'es': 'https://abdellah-edaoudi.vercel.app/es',
+                'pt': 'https://abdellah-edaoudi.vercel.app/pt',
+                'ar': 'https://abdellah-edaoudi.vercel.app/ar',
+                'ru': 'https://abdellah-edaoudi.vercel.app/ru',
+                'ja': 'https://abdellah-edaoudi.vercel.app/ja',
+                'it': 'https://abdellah-edaoudi.vercel.app/it',
+                'hi': 'https://abdellah-edaoudi.vercel.app/hi',
+                'tr': 'https://abdellah-edaoudi.vercel.app/tr',
+                'ko': 'https://abdellah-edaoudi.vercel.app/ko',
+                'id': 'https://abdellah-edaoudi.vercel.app/id',
+                'pl': 'https://abdellah-edaoudi.vercel.app/pl',
+                'sv': 'https://abdellah-edaoudi.vercel.app/sv',
+                'vi': 'https://abdellah-edaoudi.vercel.app/vi',
+                'fa': 'https://abdellah-edaoudi.vercel.app/fa',
             },
         },
     }

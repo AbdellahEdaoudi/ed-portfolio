@@ -351,7 +351,7 @@
                 "title": "Osobiste Portfolio Programisty",
                 "type": "fullstack",
                 "image": "/Projects/EdPortfolio.png",
-                "websiteUrl": "/",
+                "websiteUrl": "/pl",
                 "githubFrontendUrl": "https://github.com/AbdellahEdaoudi/My-personal-Portfolio",
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "Nowoczesne, wysoce interaktywne i responsywne portfolio osobiste zbudowane przy użyciu Next.js i Tailwind CSS. Zawiera internacjonalizację (i18n) obsługującą wiele języków oraz płynne animacje do prezentacji moich umiejętności, projektów i doświadczenia zawodowego w angażujący sposób.",

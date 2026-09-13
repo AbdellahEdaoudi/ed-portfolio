@@ -15,7 +15,7 @@ export default function Education({ content }) {
       <div className="container mx-auto px-4">
         <div className="space-y-12">
           {content.items && content.items.map((item, index) => (
-            <div key={index} className="overflow-hidden transition-all hover:shadow-xl ring-1 ring-gray-200 dark:ring-slate-800 rounded-2xl bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm shadow-md">
+            <div key={index} className="overflow-hidden transition-all hover:shadow-xl ring-1 ring-gray-200 dark:ring-slate-800 rounded-2xl bg-white/70 dark:bg-[#0b1b2b]/70 backdrop-blur-sm shadow-md">
               <div className="p-0">
                 <div className="flex flex-col md:flex-row">
                   <div className="md:w-1/3 border-r-2 rounded-l-2xl border-r-gray-100 dark:border-r-slate-800 overflow-hidden">

@@ -1,5 +1,5 @@
 const BASE_URL = 'https://abdellah-edaoudi.vercel.app';
-const LANGUAGES = ['ar', 'es', 'fr', 'ru', 'ja', 'zh', 'de', 'nl', 'pt', 'it', 'hi', 'tr', 'ko', 'en', 'id', 'pl', 'sv', 'vi', 'fa'];
+const LANGUAGES = ['en','ar', 'es', 'fr', 'ru', 'ja', 'zh', 'de', 'nl', 'pt', 'it', 'hi', 'tr', 'ko', 'id', 'pl', 'sv', 'vi', 'fa'];
 const ROUTES = ['', 'About', 'Services', 'Skills', 'Projects', 'Experience', 'Education', 'Contact'];
 
 export default function sitemap() {
@@ -18,20 +18,7 @@ export default function sitemap() {
         }
     };
 
-    // Base routes
-    ROUTES.forEach((route) => {
-        const isHome = route === '';
-        const url = isHome
-            ? `${BASE_URL}`
-            : `${BASE_URL}/${route}`;
 
-        urls.push({
-            url,
-            lastModified: new Date(),
-            changeFrequency: isHome ? 'weekly' : 'monthly',
-            priority: isHome ? 1 : 0.8,
-        });
-    });
 
     // Language routes
     LANGUAGES.forEach((lang) => {

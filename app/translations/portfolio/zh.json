@@ -351,7 +351,7 @@
                 "title": "个人开发者作品集",
                 "type": "fullstack",
                 "image": "/Projects/EdPortfolio.png",
-                "websiteUrl": "/",
+                "websiteUrl": "/zh",
                 "githubFrontendUrl": "https://github.com/AbdellahEdaoudi/My-personal-Portfolio",
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "一个使用 Next.js 和 Tailwind CSS 构建的现代、高度互动和响应式的个人作品集。具有支持多种语言的国际化 (i18n) 功能和流畅的动画，以吸引人的方式展示我的技能、项目和专业经验。",

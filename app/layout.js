@@ -97,7 +97,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className={`${prompt.className} relative bg-gray-50 dark:bg-[#090d16] text-gray-900 dark:text-gray-100 transition-colors duration-300`}>
+      <body className={`${prompt.className} relative bg-gray-50 dark:bg-[#07131e] text-gray-900 dark:text-gray-100 transition-colors duration-300`}>
         <ThemeProvider>
           <CinematicBackground />
           <script

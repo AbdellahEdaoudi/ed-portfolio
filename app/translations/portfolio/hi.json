@@ -351,7 +351,7 @@
                 "title": "व्यक्तिगत डेवलपर पोर्टफोलियो",
                 "type": "fullstack",
                 "image": "/Projects/EdPortfolio.png",
-                "websiteUrl": "/",
+                "websiteUrl": "/hi",
                 "githubFrontendUrl": "https://github.com/AbdellahEdaoudi/My-personal-Portfolio",
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "Next.js और Tailwind CSS के साथ निर्मित एक आधुनिक, अत्यधिक संवादात्मक और उत्तरदायी व्यक्तिगत पोर्टफोलियो।",

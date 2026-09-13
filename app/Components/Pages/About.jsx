@@ -24,10 +24,10 @@ function About({ content, lang }) {
               {lang === 'ar' || lang === 'fa' ? '{' : '}'}
             </div>
             <div className="absolute -inset-6 bg-gradient-to-br from-blue-100/30 via-purple-50/30 to-transparent dark:from-blue-500/20 dark:via-blue-600/10 dark:to-transparent rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-            <div className={`absolute top-4 ${lang === 'ar' || lang === 'fa' ? 'left-4' : 'right-4'} w-full h-full border border-gray-100 dark:border-slate-800 rounded-[2.5rem] transition-transform duration-500 ${lang === 'ar' || lang === 'fa' ? 'group-hover:translate-x-2' : 'group-hover:-translate-x-2'} group-hover:translate-y-2`}></div>
+            <div className={`absolute top-4 ${lang === 'ar' || lang === 'fa' ? 'left-4' : 'right-4'} w-full h-full border border-gray-100 dark:border-[#13283d] rounded-[2.5rem] transition-transform duration-500 ${lang === 'ar' || lang === 'fa' ? 'group-hover:translate-x-2' : 'group-hover:-translate-x-2'} group-hover:translate-y-2`}></div>
 
             <div className="relative z-10 p-[1px] bg-gradient-to-bl from-gray-200 via-white to-gray-100 dark:from-slate-800 dark:via-slate-900 dark:to-slate-800 rounded-[2.5rem] shadow-xl hover:shadow-2xl transition-all duration-500 group-hover:scale-[1.01]">
-              <div className="relative bg-white dark:bg-slate-900 p-2 rounded-[2.5rem] overflow-hidden">
+              <div className="relative bg-white dark:bg-[#0b1b2b] p-2 rounded-[2.5rem] overflow-hidden">
                 <div className="overflow-hidden rounded-[2rem] relative">
                   <Image
                     src="/about/image.jpg"
@@ -51,21 +51,21 @@ function About({ content, lang }) {
           </div>
           <div className="space-y-4">
             <ul className="flex gap-4 items-center justify-center pt-4">
-              <li className="flex flex-col items-center text-center bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm p-4 rounded-2xl border border-white/40 dark:border-slate-800 shadow-lg transition-all hover:bg-white/80 dark:hover:bg-slate-900">
+              <li className="flex flex-col items-center text-center bg-white/70 dark:bg-[#0b1b2b]/70 backdrop-blur-sm p-4 rounded-2xl border border-white/40 dark:border-[#13283d] shadow-lg transition-all hover:bg-white/80 dark:hover:bg-[#112438]">
                 <Award className="dark:text-blue-400" />
                 <span className="text-[13px] font-semibold dark:text-gray-100">{content.experience}</span>
                 <span className="text-[10px] text-gray-500 dark:text-gray-400">
                   +{new Date().getFullYear() - 2024} {content.experienceDetail}
                 </span>
               </li>
-              <li className="flex flex-col items-center text-center bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm py-4 md:px-4 px-2 rounded-2xl border border-white/40 dark:border-slate-800 shadow-lg transition-all hover:bg-white/80 dark:hover:bg-slate-900">
+              <li className="flex flex-col items-center text-center bg-white/70 dark:bg-[#0b1b2b]/70 backdrop-blur-sm py-4 md:px-4 px-2 rounded-2xl border border-white/40 dark:border-[#13283d] shadow-lg transition-all hover:bg-white/80 dark:hover:bg-[#112438]">
                 <Briefcase className="dark:text-blue-400" />
                 <span className="text-[13px] font-semibold dark:text-gray-100">{content.completed}</span>
                 <span className="text-[10px] text-gray-500 dark:text-gray-400">
                   +23 {content.completedDetail}
                 </span>
               </li>
-              <li className="flex flex-col items-center text-center bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm px-5 duration-300 md:px-6 py-4 rounded-2xl border border-white/40 dark:border-slate-800 shadow-lg transition-all hover:bg-white/80 dark:hover:bg-slate-900">
+              <li className="flex flex-col items-center text-center bg-white/70 dark:bg-[#0b1b2b]/70 backdrop-blur-sm px-5 duration-300 md:px-6 py-4 rounded-2xl border border-white/40 dark:border-[#13283d] shadow-lg transition-all hover:bg-white/80 dark:hover:bg-[#112438]">
                 <Headset className="dark:text-blue-400" />
                 <span className="text-[13px] font-semibold dark:text-gray-100">{content.support}</span>
                 <span className="text-[10px] text-gray-500 dark:text-gray-400">

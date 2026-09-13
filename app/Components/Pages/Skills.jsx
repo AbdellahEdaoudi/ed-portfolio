@@ -56,8 +56,8 @@ function Skills({ content }) {
   };
 
   const renderSection = (title, items) => (
-    <div className='bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm border border-gray-200 dark:border-slate-800 p-6 rounded-2xl flex flex-col items-center h-full shadow-md'>
-      <h1 className='pb-4 font-bold text-gray-900 dark:text-white text-lg border-b border-gray-200/80 dark:border-slate-800 w-full text-center mb-6'>
+    <div className='bg-white/70 dark:bg-[#0b1b2b]/70 backdrop-blur-sm border border-gray-200 dark:border-[#13283d] p-6 rounded-2xl flex flex-col items-center h-full shadow-md'>
+      <h1 className='pb-4 font-bold text-gray-900 dark:text-white text-lg border-b border-gray-200/80 dark:border-[#13283d] w-full text-center mb-6'>
         {title}
       </h1>
       <div className='flex flex-wrap justify-center gap-6 w-full'>
@@ -108,8 +108,8 @@ function Skills({ content }) {
         {renderSection(content.otherTitle, skillsData.other)}
 
         {/* SoftSkills */}
-        <div className='bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm border border-gray-200 dark:border-slate-800 p-6 rounded-2xl flex flex-col items-center h-full shadow-md'>
-          <h1 className='pb-4 font-bold text-gray-900 dark:text-white text-lg border-b border-gray-200/80 dark:border-slate-800 w-full text-center mb-6'>
+        <div className='bg-white/70 dark:bg-[#0b1b2b]/70 backdrop-blur-sm border border-gray-200 dark:border-[#13283d] p-6 rounded-2xl flex flex-col items-center h-full shadow-md'>
+          <h1 className='pb-4 font-bold text-gray-900 dark:text-white text-lg border-b border-gray-200/80 dark:border-[#13283d] w-full text-center mb-6'>
             {content.softSkillsTitle}
           </h1>
           <div className='flex flex-wrap justify-center gap-6 w-full'>

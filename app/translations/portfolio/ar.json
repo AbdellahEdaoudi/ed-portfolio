@@ -351,7 +351,7 @@
                 "title": "بورتفوليو شخصي تفاعلي",
                 "type": "fullstack",
                 "image": "/Projects/EdPortfolio.png",
-                "websiteUrl": "/",
+                "websiteUrl": "/ar",
                 "githubFrontendUrl": "https://github.com/AbdellahEdaoudi/My-personal-Portfolio",
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "بورتفوليو شخصي حديث ومتجاوب وتفاعلي بالكامل تم بناؤه باستخدام Next.js و Tailwind CSS. يتميز بدعم التدويل (i18n) لدعم لغات متعددة، مع حركات سلسة لعرض مهاراتي ومشاريعي وخبراتي المهنية بطريقة جذابة ومميزة.",

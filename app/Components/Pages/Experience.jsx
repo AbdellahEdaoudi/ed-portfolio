@@ -14,7 +14,7 @@ export default function Experience({ content }) {
 
                 <div className="grid gap-6">
                     {content.items && content.items.map((item, index) => (
-                        <div key={index} className="bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm border border-gray-100 dark:border-slate-800 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group">
+                        <div key={index} className="bg-white/70 dark:bg-[#0b1b2b]/70 backdrop-blur-sm border border-gray-100 dark:border-[#13283d] rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group">
                             {/* Card Top Border */}
                             <div className="h-1 bg-gradient-to-r from-cyan-500 to-blue-500 dark:from-blue-600 dark:to-blue-400 transform scale-x-100 transition-transform duration-500 origin-left"></div>
 
@@ -50,7 +50,7 @@ export default function Experience({ content }) {
                                 </div>
 
                                 {/* Separator */}
-                                <div className="border-t border-gray-100 dark:border-slate-800 my-4"></div>
+                                <div className="border-t border-gray-100 dark:border-[#13283d] my-4"></div>
 
                                 <div className="space-y-3">
                                     {(item.responsibilities || item.description) && (

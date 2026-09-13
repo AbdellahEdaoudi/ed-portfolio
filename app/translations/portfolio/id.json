@@ -351,7 +351,7 @@
                 "title": "Portofolio Pengembang Pribadi",
                 "type": "fullstack",
                 "image": "/Projects/EdPortfolio.png",
-                "websiteUrl": "/",
+                "websiteUrl": "/id",
                 "githubFrontendUrl": "https://github.com/AbdellahEdaoudi/My-personal-Portfolio",
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "Portofolio pribadi yang modern, sangat interaktif, dan responsif yang dibangun dengan Next.js dan Tailwind CSS. Memiliki fitur internasionalisasi (i18n).",

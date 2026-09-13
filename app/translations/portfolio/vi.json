@@ -351,7 +351,7 @@
                 "title": "Portfolio Lập Trình Viên Cá Nhân",
                 "type": "fullstack",
                 "image": "/Projects/EdPortfolio.png",
-                "websiteUrl": "/",
+                "websiteUrl": "/vi",
                 "githubFrontendUrl": "https://github.com/AbdellahEdaoudi/My-personal-Portfolio",
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "Một portfolio cá nhân hiện đại, tương tác cao và phản hồi tốt được xây dựng bằng Next.js và Tailwind CSS. Có tính năng quốc tế hóa (i18n) hỗ trợ nhiều ngôn ngữ và hoạt ảnh mượt mà để giới thiệu kỹ năng, dự án và kinh nghiệm chuyên môn của tôi một cách hấp dẫn.",

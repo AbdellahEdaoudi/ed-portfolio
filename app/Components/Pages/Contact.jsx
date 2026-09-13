@@ -150,7 +150,7 @@ function Contact({ content }) {
                 {/* Contact Information */}
                 <div className="w-64 mx-auto text-center space-y-3">
                     <h4 className="text-center font-bold dark:text-slate-200">{content.title}</h4>
-                    <ul className="bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm space-y-1.5 py-4 rounded-2xl border border-gray-100 dark:border-slate-800 shadow-md">
+                    <ul className="bg-white/70 dark:bg-[#0b1b2b]/70 backdrop-blur-sm space-y-1.5 py-4 rounded-2xl border border-gray-100 dark:border-[#13283d] shadow-md">
                         <li className="flex justify-center dark:text-blue-400">
                             <MailMinus />
                         </li>
@@ -162,7 +162,7 @@ function Contact({ content }) {
                             {content.writeMe} <ArrowBigRight />
                         </li>
                     </ul>
-                    <ul className="bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm space-y-1.5 py-4 rounded-2xl border border-gray-100 dark:border-slate-800 shadow-md">
+                    <ul className="bg-white/70 dark:bg-[#0b1b2b]/70 backdrop-blur-sm space-y-1.5 py-4 rounded-2xl border border-gray-100 dark:border-[#13283d] shadow-md">
                         <li className="flex justify-center">
                             <Image src="/icons/whatsapp.png" width={25} height={25} alt="whatsapp" />
                         </li>
@@ -188,7 +188,7 @@ function Contact({ content }) {
                                     setSubject(e.target.value);
                                     if (errors.subject) setErrors(prev => ({ ...prev, subject: null }));
                                 }}
-                                className={`text-[13px] bg-gray-50 dark:bg-slate-900 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 pl-4 pr-4 py-3 w-72 rounded-xl border-2 transition-colors ${errors.subject ? 'border-red-500 bg-red-50 dark:bg-red-950/20' : 'border-gray-200 dark:border-slate-800 dark:focus:border-blue-500'}`}
+                                className={`text-[13px] bg-gray-50 dark:bg-[#0b1b2b] text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 pl-4 pr-4 py-3 w-72 rounded-xl border-2 transition-colors ${errors.subject ? 'border-red-500 bg-red-50 dark:bg-red-950/20' : 'border-gray-200 dark:border-[#13283d] dark:focus:border-blue-500'}`}
                             />
                             {errors.subject && (
                                 <p className="text-red-500 text-[10px] mt-1 transition-all duration-300">
@@ -208,7 +208,7 @@ function Contact({ content }) {
                                     setEmail(e.target.value);
                                     if (errors.email) setErrors(prev => ({ ...prev, email: null }));
                                 }}
-                                className={`text-[13px] bg-gray-50 dark:bg-slate-900 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 pl-4 pr-4 py-3 w-72 rounded-xl border-2 transition-colors ${errors.email ? 'border-red-500 bg-red-50 dark:bg-red-950/20' : 'border-gray-200 dark:border-slate-800 dark:focus:border-blue-500'}`}
+                                className={`text-[13px] bg-gray-50 dark:bg-[#0b1b2b] text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 pl-4 pr-4 py-3 w-72 rounded-xl border-2 transition-colors ${errors.email ? 'border-red-500 bg-red-50 dark:bg-red-950/20' : 'border-gray-200 dark:border-[#13283d] dark:focus:border-blue-500'}`}
                             />
                             {errors.email && (
                                 <p className="text-red-500 text-[10px] mt-1 transition-all duration-300">
@@ -226,7 +226,7 @@ function Contact({ content }) {
                                     setMessage(e.target.value);
                                     if (errors.message) setErrors(prev => ({ ...prev, message: null }));
                                 }}
-                                className={`text-[13px] bg-gray-50 dark:bg-slate-900 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 pl-4 pr-4 py-3 w-72 rounded-xl border-2 transition-colors ${errors.message ? 'border-red-500 bg-red-50 dark:bg-red-950/20' : 'border-gray-200 dark:border-slate-800 dark:focus:border-blue-500'}`}
+                                className={`text-[13px] bg-gray-50 dark:bg-[#0b1b2b] text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 pl-4 pr-4 py-3 w-72 rounded-xl border-2 transition-colors ${errors.message ? 'border-red-500 bg-red-50 dark:bg-red-950/20' : 'border-gray-200 dark:border-[#13283d] dark:focus:border-blue-500'}`}
                             />
                             {errors.message && (
                                 <p className="text-red-500 text-[10px] mt-1 transition-all duration-300">

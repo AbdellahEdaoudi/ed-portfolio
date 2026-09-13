@@ -351,7 +351,7 @@
                 "title": "Portfolio Personale dello Sviluppatore",
                 "type": "fullstack",
                 "image": "/Projects/EdPortfolio.png",
-                "websiteUrl": "/",
+                "websiteUrl": "/it",
                 "githubFrontendUrl": "https://github.com/AbdellahEdaoudi/My-personal-Portfolio",
                 "githubBackendUrl": "https://github.com/AbdellahEdaoudi/Server-My-personal-Portfolio",
                 "description": "Un portfolio personale moderno, altamente interattivo e reattivo, costruito con Next.js e Tailwind CSS. Dispone di internazionalizzazione (i18n).",

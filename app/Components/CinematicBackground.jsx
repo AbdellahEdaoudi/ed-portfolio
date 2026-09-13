@@ -10,10 +10,10 @@ const CinematicBackground = () => {
     }, []);
 
     return (
-        <div className="fixed inset-0 w-full h-full -z-10 overflow-hidden pointer-events-none bg-[#f9fafb] dark:bg-[#090d16] transition-colors duration-500">
-            {/* Ambient Glow - Full Screen Coverage */}
+        <div className="fixed inset-0 w-full h-full -z-10 overflow-hidden pointer-events-none bg-[#f9fafb] dark:bg-[#07131e] transition-colors duration-500">
+            {/* Ambient Glow - Full Screen Coverage with Manchester City Sky Blue accents */}
             <div className="absolute inset-0 overflow-hidden">
-                <div className="absolute inset-[-50%] bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.07)_0%,rgba(59,130,246,0.03)_40%,transparent_70%)] dark:bg-[radial-gradient(ellipse_at_center,rgba(37,99,235,0.22)_0%,rgba(37,99,235,0.10)_45%,transparent_75%)]"></div>
+                <div className="absolute inset-[-50%] bg-[radial-gradient(ellipse_at_center,rgba(108,171,221,0.08)_0%,rgba(108,171,221,0.03)_40%,transparent_70%)] dark:bg-[radial-gradient(ellipse_at_center,rgba(108,171,221,0.22)_0%,rgba(28,44,66,0.25)_45%,transparent_75%)]"></div>
             </div>
 
             {/* High Performance Noise Texture */}
